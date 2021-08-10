@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Codystar&family=Oswald&family=Petit+Formal+Script&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body {
+    font-family: Lato, sans-serif;
+    font-weight: 300;
+    color: #09343b;
+}
+
+header {
+    background-color: #3a3a3a;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family: Codystar, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#logo {
+    float: left;
+    font-size: 210%;
+    margin-left: 30px;
+    color: #134e57;
+}
+
+#menu {
+    font-family: Roboto, sans-serif;
+    font-size: 110%;
+    letter-spacing: 4px;
+    color: #134e57;
+}
+
+#menu, #logo {
+    line-height: 75px;
+}
+
+#menu li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+#menu a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#menu a:hover { 
+    border-bottom: 1px solid #3a3a3a;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
+}
