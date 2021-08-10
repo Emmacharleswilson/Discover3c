@@ -10,15 +10,17 @@ body {
     font-family: Lato, sans-serif;
     font-weight: 300;
     color: #09343b;
+    background-color: #fff7f0;
 }
 
 header {
-    background-color: #3a3a3a;
+    background-color: #ffdcbb;
+    height: 75px;
 }
 
 /* headings and logo */
 
-h1, h2 {
+h1  {
     font-family: Codystar, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -33,7 +35,7 @@ h1, h2 {
 
 #menu {
     font-family: Roboto, sans-serif;
-    font-size: 110%;
+    font-size: 100%;
     letter-spacing: 4px;
     color: #134e57;
 }
@@ -76,4 +78,42 @@ h1, h2 {
     width: 100%;
     background: url('../images/hero-image.jpg') no-repeat center center;
 
+}
+
+/* about us */ 
+
+#about-us h2 {
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: 250%;
+    color: #d67447;
+    font-weight: 200;
+}
+
+#about-us p {
+    font-family: Roboto, sans-serif;
+    text-align: center;
+}
+
+/* footer */ 
+
+footer { 
+    height: 150px;
+}
+
+.social-networks { 
+    text-align: center;
+}
+
+.social-networks > li { 
+    display: inline;
+}
+
+.social-networks i { 
+    font-size: 160%;
+    margin: 1%;
+    padding: 5%;
+    color: #134e57;
 }
