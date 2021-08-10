@@ -11,12 +11,14 @@ body {
     font-weight: 300;
     color: #09343b;
     background-color: #fff7f0;
+
 }
 
 header {
     background-color: #ffdcbb;
     height: 75px;
 }
+
 
 /* headings and logo */
 
@@ -97,6 +99,17 @@ h1  {
     text-align: center;
 }
 
+img {
+    margin: 8px 0 0 2px;
+    padding: 4px;
+    width: 270px;
+    float: right;
+}
+
+.textwrap {
+    float: right;
+    margin: 10px;
+}
 /* footer */ 
 
 footer { 
