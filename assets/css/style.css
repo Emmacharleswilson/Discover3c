@@ -94,23 +94,20 @@ h1  {
     font-weight: 200;
 }
 
-#about-us p {
-    font-family: Roboto, sans-serif;
-    text-align: center;
-    width: 60%;
-    font-size: 110%;
-    color: #2c1600;
-}
 
-#image {
-    width: 30px;
-    height: 30px;
-}
-
-img ,p {
+.inner-div {
     display: inline-block;
+    
+    width: 45%;
 }
 
+#p {
+    font-family: Roboto, sans-serif;
+}
+
+img {
+    width: 30%;
+}
 
 /* footer */ 
 
