@@ -97,19 +97,21 @@ h1  {
 #about-us p {
     font-family: Roboto, sans-serif;
     text-align: center;
+    width: 60%;
+    font-size: 110%;
+    color: #2c1600;
 }
 
-img {
-    margin: 8px 0 0 2px;
-    padding: 4px;
-    width: 270px;
-    float: right;
+#image {
+    width: 30px;
+    height: 30px;
 }
 
-.textwrap {
-    float: right;
-    margin: 10px;
+img ,p {
+    display: inline-block;
 }
+
+
 /* footer */ 
 
 footer { 
