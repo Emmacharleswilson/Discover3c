@@ -203,8 +203,7 @@ img {
 .twists {
     width: 50%;
     text-align: center;
-    margin-left: 350px;
-    margin-right: 350px;
+    margin-left: 360px;
     margin-top: 10px;
 }
 
@@ -222,6 +221,12 @@ img {
 
 .crop-1 {
     width: 23.1%;
+}
+
+.box-braids {
+    width: 230%;
+    margin-left: 400px;
+    margin-top: 10px;
 }
 
 /* footer */ 
