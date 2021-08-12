@@ -98,7 +98,7 @@ h1  {
 p {
     font-family: Roboto, sans-serif;
     font-size: 110%;
-    color: #251303;
+    color: #462405;
     margin-left: 250px;
     margin-right: 250px;
     line-height: 25px;
@@ -218,6 +218,10 @@ img {
 
 .crop {
     width: 20.8%;
+}
+
+.crop-1 {
+    width: 23.1%;
 }
 
 /* footer */ 
