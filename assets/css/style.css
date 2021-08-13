@@ -255,6 +255,21 @@ img {
     line-height: 25px;
 }
 
+/* product images */
+
+.column {
+    float: left;
+    width: 20%;
+    padding: 5px;
+
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /* contact us form */ 
 
 #fcf-form {
@@ -419,6 +434,15 @@ label.fcf-label {
 input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
     width: 100%;
 }
+
+@media screen and (max-width: 600px)  {
+    .fcf-bod {
+        max-width: 100%;
+    }
+}
+
+
+
 /* footer */ 
 
 footer { 
