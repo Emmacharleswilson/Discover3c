@@ -268,8 +268,6 @@ img {
     padding: 5px;
     margin-left: auto;
     margin-right: auto;
-   
-
 }
 
 .row::after {
@@ -278,6 +276,13 @@ img {
     display: table;
 }
 
+#products {
+    text-align: center;
+}
+    
+#products .column {
+    display: inline-block;
+}
 
 /* contact us form */ 
 
