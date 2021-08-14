@@ -108,8 +108,6 @@ p {
 img {
     width: 20%;
     height: 20%;
-    margin-right: 250px;
-    margin-right: 250px;
 }
 
 #what-is h2 {
@@ -125,13 +123,17 @@ img {
 #what-is img {
     width: 40%;
     height: auto;
-    margin-left: 425px;
-    margin-right: 425px;
-    
     margin-top: 20px;
     margin-bottom: 20px;
 }
 
+.what {
+    text-align: center;
+}
+
+#what-is  {
+    float: right;
+}
 /* for screens less than 600px margin decrease */
 
 @media screen and (max-width: 800px) {
@@ -201,12 +203,15 @@ img {
     width: 19%;
 }
 
-.twists {
-    width: 50%;
+.twist {
     text-align: center;
-    margin-left: 360px;
-    margin-top: 10px;
 }
+
+.twists {
+    margin-top: 10px;
+    display: block;
+}
+
 
 @media screen and (max-width: 600px) {
     .twists {
@@ -225,10 +230,12 @@ img {
 }
 
 .box-braids {
-    width: 230%;
-    margin-left: 400px;
+    text-align: center;
     margin-top: 10px;
+    display: block;
 }
+
+
 
 /* regime */
 
