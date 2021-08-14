@@ -131,6 +131,10 @@ img {
     text-align: center;
 }
 
+.what p {
+    text-align: left;
+}
+
 #what-is  {
     float: right;
 }
@@ -143,8 +147,8 @@ img {
     }
 
     img {
-        width: 80%;
-        height: 80%;
+        width: 40%;
+        height: 40%;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -266,6 +270,7 @@ img {
     margin-right: 250px;
     line-height: 25px;
 }
+
 
 /* product images */
 
