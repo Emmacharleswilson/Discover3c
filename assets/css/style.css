@@ -83,6 +83,7 @@ h1  {
 
 }
 
+
 /* about us */ 
 
 #about-us h2 {
@@ -204,6 +205,7 @@ img {
     width: 50%;
     text-align: center;
     margin-left: 360px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -230,10 +232,13 @@ img {
 
 /* regime */
 
-#video {
-    margin-left: 250px;
+.container {
+    display: flex;
+    justify-content: center;
     margin-top: 10px;
+
 }
+
 
 #steps h2 {
     font-size: 200%;
@@ -258,9 +263,12 @@ img {
 /* product images */
 
 .column {
-    float: left;
+    float: inline-start;
     width: 20%;
     padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+   
 
 }
 
@@ -269,6 +277,7 @@ img {
     clear: both;
     display: table;
 }
+
 
 /* contact us form */ 
 
