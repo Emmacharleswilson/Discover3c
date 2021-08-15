@@ -97,10 +97,15 @@ header {
     #menu {
         font-size: 10px;
         text-align: center;
+        margin-left: 2px;
     }
 
     header {
         height:  150px;
+    }
+    #logo {
+        font-size: 20px;
+        margin-left: 2px;
     }
 }
 
