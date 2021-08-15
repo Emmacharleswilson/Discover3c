@@ -19,11 +19,23 @@ body {
 
 }
 
-.content {
-    height: 200vh;
-    display: grid;
-    place-items: center;
+.body {
+    max-width: 60%;
+    display: block;
+    margin: auto;
+    
 }
+
+@media screen and (max-width: 800px) {
+    .body {
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+}
+
+
+
 
 
 
@@ -77,13 +89,14 @@ h2 {
 }
 
 header {
-    background-color: rgb(241, 210, 198);
+    background-color: rgb(252, 222, 195);
     height: 75px;
 }
 
 @media screen and (max-width: 1000px) {
     #menu {
-        font-size: 5px;
+        font-size: 10px;
+        text-align: center;
     }
 
     header {
@@ -120,14 +133,26 @@ header {
     font-size: 250%;
     color: #d67447;
     font-weight: 200;
+    
 }
 
-p {
+#about-us p {
     font-family: Roboto, sans-serif;
     font-size: 110%;
     color: #462405;
-    margin-left: 250px;
-    margin-right: 250px;
+    display: block;
+    margin: auto;
+    max-width: 60%;
+    line-height: 25px;
+}
+
+#what-is p {
+    font-family: Roboto, sans-serif;
+    font-size: 110%;
+    color: #462405;
+    display: block;
+    margin: auto;
+    max-width: 70%;
     line-height: 25px;
 }
 
@@ -164,12 +189,19 @@ img {
 #what-is  {
     float: right;
 }
-/* for screens less than 600px margin decrease */
+/* for screens less than 600px margin decreases */
 
 @media screen and (max-width: 800px) {
-    p {
-        margin-left: 50px;
-        margin-right: 50px;
+    #what-is p {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+    }
+
+    #about-us p {
+        display: block;
+        margin: auto;
+        max-width: 90%;
     }
 
     img {
@@ -190,21 +222,29 @@ img {
 
 /* protective styles */ 
 
+body p {
+    font-family: Roboto, sans-serif;
+    font-size: 110%;
+    color: #462405;
+    display: block;
+    line-height: 25px;
+}
+
 #sub-heading h2 {
     font-size: 250%;
     color: #d67447;
     font-weight: 200;
     font-family: Oswald, sans-serif;
-    margin-left: 250px;
     padding-bottom: 10px;
     padding-top: 50px;
 }
+
 
 #sub-heading h3 {
     font-size: 150%;
     color: #134e57;
     font-family: Petit Formal Script, sans-serif;
-    margin-left: 250px;
+    
 
 }
 
@@ -213,7 +253,6 @@ img {
     color: #d67447;
     font-weight: 100;
     font-family: Oswald, sans-serif;
-    margin-left: 250px;
     margin-top: 50px;
     padding-bottom: 10px;
 }
@@ -237,18 +276,15 @@ img {
     text-align: center;
 }
 
+.twist img {
+    padding-top: 10px;
+    width: 40%;
+    height: 40%;
+}
+
 .twists {
     margin-top: 10px;
     display: block;
-}
-
-
-@media screen and (max-width: 600px) {
-    .twists {
-        width: 80%;
-        margin-left: 50px;
-        margin-right: 50px;
-    }
 }
 
 .crop {
@@ -263,6 +299,42 @@ img {
     text-align: center;
     margin-top: 10px;
     display: block;
+}
+
+.box-braids img {
+    height: 40%;
+    width: 40%;
+}
+
+/* for screens less than 800px images resize */
+
+@media screen and (max-width: 800px) {
+    #sub-heading h2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .crop {
+        width: 41%;
+    }
+    .twists {
+        width: 80%;
+    }
+    .cropped {
+        width: 38%;
+    }
+    .crop-1 {
+        width: 46.5%;
+    }
+    .twist img {
+        width: 80%;
+    }
+    .box-braids img {
+        width: 80%;
+    }
+    #sub-heading h2 {
+        margin-left: 1px;
+    }
+   
 }
 
 
