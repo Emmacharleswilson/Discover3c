@@ -34,11 +34,6 @@ body {
     }
 }
 
-
-
-
-
-
 /* headings and logo */
 
 h1  {
@@ -138,7 +133,7 @@ header {
 #about-us h2 {
     font-family: Oswald, sans-serif;
     text-align: center;
-    padding-top: 1%;
+    padding-top: 25px;
     padding-bottom: 1%;
     font-size: 250%;
     color: #d67447;
@@ -176,7 +171,7 @@ img {
     text-align: center;
     font-size: 250%;
     color: #d67447;
-    padding-top: 60px;
+    padding-top: 35px;
     font-weight: 200;
 
 }
@@ -199,7 +194,6 @@ img {
 #what-is  {
     float: right;
 }
-/* for screens less than 600px margin decreases */
 
 @media screen and (max-width: 800px) {
     #what-is p {
@@ -223,6 +217,17 @@ img {
         width: 80%;
         height: 80%;
         
+    }
+
+    #what-is h2 {
+        font-size: 35px;
+        margin-top: -15px;
+    }
+
+    #about-us h2 {
+        font-size: 35px;
+        padding-top: 30px;
+        padding-bottom: 20px;
     }
 
 }
@@ -251,8 +256,6 @@ body p {
     font-size: 150%;
     color: #134e57;
     font-family: Petit Formal Script, sans-serif;
-    
-
 }
 
 #wigs h2 {
@@ -263,6 +266,24 @@ body p {
     margin-top: 50px;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 800px) {
+    #sub-heading h2 {
+        margin-top: -20px;
+        font-size: 38px;
+    }
+
+    #sub-heading h3 {
+        font-size: 15px;
+        padding-left: 1px;
+    }
+
+    #wigs h2 {
+        margin-top: 35px;
+    }
+}
+
+/* protective styles images */ 
 
 .images-container {
     display: flex;
@@ -368,6 +389,11 @@ body p {
     #sub-heading h2 {
         margin-left: 1px;
     }
+
+    #wigs h2 {
+        font-size: 28px;
+        margin-top: 20px;
+    }
    
 }
 
@@ -406,6 +432,36 @@ body p {
     padding-bottom: 5px;
 }
 
+#suggestion h2 {
+    font-size: 220%;
+    color: #d67447;
+    font-weight: 100;
+    font-family: Oswald, sans-serif;
+    margin-top: 30px;
+    padding-bottom: 10px;
+}
+
+@media screen and (max-width: 800px) {
+    #sub-heading h2 {
+        font-size: 38px;
+        margin-top: -20px;
+    }
+
+    #sub-heading h3 {
+        font-size: 15px;
+        padding-left: 1px;
+    }
+
+    #suggestion h2 {
+        font-size: 34px;
+        padding-bottom: 20px;
+    }
+
+    #steps h2 {
+        font-size: 34px;
+    }
+}
+
 
 /* product images */
 
@@ -432,6 +488,8 @@ body p {
     display: inline-block;
 }
 
+/* for screens less than 600px images change position */
+
 @media screen and (max-width: 600px) {
     
     .row {
@@ -441,7 +499,7 @@ body p {
     }
     .column {
         flex: 50%;
-        padding: 0 4px;
+        padding: 7px;
         height: 50%;
     }
     #steps h2 {
@@ -451,8 +509,6 @@ body p {
         margin-left: 1px;
     }
 }
-
-
 
 /* contact us form */ 
 
@@ -635,8 +691,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     margin-top: 30px;
     }
     }
-
-
 
 /* footer */ 
 
