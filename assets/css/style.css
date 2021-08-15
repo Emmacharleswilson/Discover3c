@@ -417,6 +417,7 @@ body p {
 @media screen and (max-width: 600px) {
     .column {
         width: 50%;
+        display: inline-block;
     }
     #steps h2 {
         margin-left: 1px;
@@ -593,7 +594,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     width: 100%;
 }
 
-@media screen and (max-width: 800px)  {
+@media screen and (max-width: 600px)  {
     .fcf-body {
         display: block;
         max-width: 90%;
@@ -601,6 +602,14 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         margin-top: 30px;
         }
 }
+@supports (-webkit-touch-callout: none) {
+    .fcf-body {
+    display: block;
+    max-width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    }
+    }
 
 
 
