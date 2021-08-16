@@ -117,11 +117,8 @@ header {
 
 #img1 {
     display: block;
-    height: 600px;
+    height: 620px;
     width: 100%;
-    overflow: hidden;
-    position: relative;
-    background: no-repeat center center;
 }
 
 #img2 {
@@ -205,6 +202,10 @@ img {
     float: right;
 }
 
+#what-is p {
+    text-align: left;
+}
+
 /* for screens 800px and less text resizes */
 
 @media screen and (max-width: 800px) {
@@ -212,12 +213,14 @@ img {
         display: block;
         margin: auto;
         max-width: 90%;
+        font-size: 16px;
     }
 
     #about-us p {
         display: block;
         margin: auto;
         max-width: 90%;
+        font-size: 16px;
     }
 
     img {
@@ -252,10 +255,11 @@ body p {
     color: #462405;
     display: block;
     line-height: 25px;
+    width: 100%;
 }
 
 #sub-heading h2 {
-    font-size: 250%;
+    font-size: 230%;
     color: #d67447;
     font-weight: 200;
     font-family: Oswald, sans-serif;
@@ -275,7 +279,7 @@ body p {
     color: #d67447;
     font-weight: 100;
     font-family: Oswald, sans-serif;
-    margin-top: 50px;
+    margin-top: 30px;
     padding-bottom: 10px;
 }
 
@@ -291,16 +295,24 @@ body p {
     }
 
     #wigs h2 {
-        margin-top: 35px;
-        font-size: 20px;
+        margin-top: 10px;
+        font-size: 10px;
     }
 
     #twists h2 {
         font-size: 10px;
     }
+
+    body p {
+        font-size: 16px;
+    }
 }
 
 /* protective styles images */ 
+
+#wigs h2 {
+    font-size: 200%;
+}
 
 .images-container {
     display: flex;
@@ -383,7 +395,7 @@ body p {
         width: 45%;
     }
     .twists {
-        width: 80%;
+        width: 100%;
     }
     .wig-2 {
         width: 38%;
@@ -401,8 +413,9 @@ body p {
         width: 80%;
     }
     #wigs h2 {
-        font-size: 28px;
-        margin-top: 20px;
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 4px;
     }
 }
 
@@ -463,12 +476,20 @@ body p {
     }
 
     #suggestion h2 {
-        font-size: 30px;
+        font-size: 28px;
         padding-bottom: 10px;
     }
 
     #steps h2 {
-        font-size: 30px;
+        font-size: 28px;
+    }
+
+    #steps h3 {
+        font-size: 20px;
+    }
+
+    #steps li {
+        font-size: 15px;
     }
 }
 
