@@ -115,18 +115,27 @@ header {
 
 /* home page image */ 
 
-#hero-outer {
+#img1 {
+    display: block;
     height: 600px;
     width: 100%;
     overflow: hidden;
     position: relative;
+    background: no-repeat center center;
 }
 
-#hero-image {
-    height: 600px;
-    width: 100%;
-    background: url('../images/hero-image.jpg') no-repeat center center;
+#img2 {
+    display: none;
+}
 
+@media all and (max-width: 600px) {
+    #img1 {
+        display: none;
+    }
+    #img2 {
+        display: block;
+        width: 100%;
+    }
 }
 
 /* about us section */ 
