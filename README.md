@@ -1,104 +1,168 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Discover3c 
+<br>
 
-Welcome Emmacharleswilson,
+# Introduction
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. The last update to this file was: **July 2, 2021**
+This website was designed to help people better understand and manage 3c hair. This is a categorisation of relatively tightly curled hair that can appear in all races but in the UK is more predominant in those with BAME backgrounds.
 
-## Gitpod Reminders
+Due to the relatively small percentage of this hair type there is a shortage of information available which this website seeks to address.This website could also have further commercial applications given there is a large market for hair care products and management regimes.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+This is the first of four Milestone Projects that the developer must complete during their Full Stack Development Program at The Code Institute. The main requirements were to make a responsive and static website with minimum of three pages using primarily HTML5 and CSS3. 
 
-`python3 -m http.server`
+# UX
 
-A blue button should appear to click: _Make Public_,
+## Ideal User Demographic 
+<br>
 
-Another blue button should appear to click: _Open Browser_.
+### The ideal user of this website is:
+<li>Someone with 3c hair</li>
+<li>Friends or parents of those with 3c hair</li>
+<li>Stylists and hairdressers</li>
+<li>Those with a general interest in diversity and styles</li>
+<br>
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+## User Stories 
+<br>
 
-A blue button should appear to click: _Make Public_,
+### Someone with 3c hair: 
+<li>As someone with 3c hair, I want to easily navigate through the website to find the relevant content</li>
+<li>As someone with 3c hair, I want to learn the background to this hair</li>
+<li>As someone with 3c hair, I want a clear guide to identify my hair type</li>
+<li>As someone with 3c hair, I want to be able to view options for my hair</li>
+<li>As someone with 3c hair, I want information that enables me to manage my hair effectively, including product suggestions</li>
+<br>
 
-Another blue button should appear to click: _Open Browser_.
+## Development Planes
+<br>
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+In order to create a comprehensive and informative website, the developer has researched and looking into personal experience to meet the required functionality of the site and how it would answer the user stories, as described above. 
+<br>
+<br>
 
-To log into the Heroku toolbelt CLI:
+### Strategy 
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+Broken into three categories, the website will focus on the following target audiences:
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+<ul>
+<li>Roles</li>
+<ul>
+<li>People currently transitioning to natural hair</li>
+<li>People with natural hair (specifically 3c)</li>
+<li>People wanting to learn more about natural hair</li></ul></ul>
 
-------
+<ul>
+<li>Demographic</li>
+<ul>
+<li>14-60</li>
+<li>Primarily BME and mixed race (not exclusively)</li></ul></ul>
 
-## Release History
+<ul>
+<li>Psychographics</li>
+<ul>
+<li>Personality & Attitudes :</li>
+<ul>
+<li>Pro natural hair</li>
+<li>Curious and open minded</li>
+</ul>
+<li>Values :</li>
+<ul>
+<li>Hair health conscious</li>
+<li>Respects and appreciates differences in ethnicity</li></ul>
+<li>Lifestyles :</li>
+<ul>
+<li>Modern</li>
+<li>Interested in Style</li></ul>
+<br>
+<br>
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The website needs to enable the user to : 
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+<ul>
+<li>Obtain desired information</li>
+<li>Gain knowledge on this particular topic</li>
+<li>Contact website host</li>
+<li>Find them on their preferred social media platform</li>
+</ul>
+<br>
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+The website needs to enable the website host to : 
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
+<ul>
+<li>Develop an online presence</li>
+<li>Provide an easily navigate website for users to find relevant information</li>
+<li>Reach the target demographic</li>
+<li>Provide channel of communication for specific products and product providers</li>
+</ul>
+<br>
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+With these goals in mind, a strategy table was created to determine the trade-off between importance and visibility with the following results:
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+![Strategy Table] (assets/readme-files/strategy-table.png)
+<br>
+<br>
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+### Scope 
+<br>
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+A scope was defined in order to clearly identify what needed to be done in order to align features with the strategy previously defined. This was broken into two categories: 
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+<ul>
+<li>Content Requirements</li>
+<ul>
+<li>The user will be looking for :</li><ul>
+<li>Hair care information</li>
+<li>Product information </li>
+<li>Supporting imagery/videos </li>
+<li>Social links</li>
+<li>Contact details</li>
+</ul></ul></ul>
+<br>
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+<ul>
+<li>Functionality requirements</li>
+<ul>
+<li>The user will be able to:</li>
+<ul><li>Easily navigate through the site in order to find the information they want</li></ul>
+<li>Be able to find links to internal sites in order to:</li>
+<ul>
+<li>Purchase products</li>
+<li>Be able to watch supporting content </li>
+<li>Contact the website host via their chosen channel of communication</li></ul><ul>
+<br>
+<br>
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+### Structure 
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The information architecture was organised in a hierarchical tree structure in order to ensure that users could navigate through the site with ease and efficiency, with the following results : 
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+![Tree Structure] (assets/readme-files/tree-structure.png)
+<br>
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Skelelton 
+<br>
 
-------
+## Design 
+<br>
 
-## FAQ about the uptime script
+### Colour Scheme 
+<br>
 
-**Why have you added this script?**
+The main colours used throughout the website are Ecru, Brown and Peach with accents of Teal and Orange. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+The chosen colour scheme was to reflect nature and the colours that are typically found in this type of hair,……
 
-**How will this affect me?**
+### Typography 
+<br>
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+The fonts Oswald and Roboto are used throughout the website with sans serif as the fallback font incase of import failure. 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+For the main title, the font Codystar has been used and for accents, Petit Formal Script. This was to create a contrast with the other fonts used. 
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
 
-**Can I opt out?**
 
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
 
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
 
-**Anything more?**
 
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
 
----
-
-Happy coding!
