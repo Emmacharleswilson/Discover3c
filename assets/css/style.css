@@ -74,7 +74,6 @@ h2 {
 
 #menu a {
     text-decoration: none;
-    color: inherit;
 }
 
 #menu a:hover {
@@ -82,7 +81,11 @@ h2 {
 }
 
 .active {
-    border-bottom: 1px solid #134e57;
+    color: #d67447;
+}
+
+.non-active {
+    color: #134e57;
 }
 
 header {
@@ -96,12 +99,12 @@ header {
 
 @media screen and (max-width: 600px) {
     #menu {
-        font-size: 10px;
+        font-size: 11px;
         text-align: center;
         margin-left: 30px;
         margin-top: -22px;
         float: left;
-        letter-spacing: 2px;
+        letter-spacing: 3px;
     }
 
     header {
