@@ -605,12 +605,12 @@ body p {
     text-align: left;
     background-color: #fff;
     padding: 30px;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     border: 1px solid #ced4da;
     border-radius: 0.25rem;
     max-width: 40%;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 150px;
 }
 
 .fcf-form-group {
@@ -761,8 +761,8 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         display: block;
         max-width: 90%;
         margin: auto;
-        margin-top: 30px;
-        padding-top: 170px;
+        margin-top: 150px;
+        padding-top: 30px;
         }
 }
 @supports (-webkit-touch-callout: none) {
@@ -770,7 +770,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     display: block;
     max-width: 90%;
     margin: auto;
-    margin-top: 30px;
+    margin-top: 190px;
     }
 }
 
