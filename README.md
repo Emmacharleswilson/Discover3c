@@ -138,16 +138,16 @@ The information architecture was organized in a **hierarchial tree structure** i
 Wireframe mockups were created in a [Figma Workspace](https://www.figma.com/file/pRD2Oi1aSuYxhFacqOmUfT/Kryan-Live?node-id=0%3A1) with providing a positive user experience in mind:
 
 Home Page:
-![Home Page Wireframe](assets/readme-files/home.png "Home Page Wireframe")
+![Home Page Wireframe](assets/readme-files/wireframe-home.png "Home Page Wireframe")
 
 Bio Page:
-![Bio Page Wireframe](assets/readme-files/bio.png "Bio Page Wireframe")
+![Protective Styles Page Wireframe](assets/readme-files/wireframe-style.png "Protective Styles Page Wireframe")
 
 Live Page:
-![Live Page Wireframe](assets/readme-files/live.png "Live Page Wireframe")
+![Regiment Page Wireframe](assets/readme-files/wireframe-regiment.png "Regiment Page Wireframe")
 
 Press Kit Page:
-![Press Kit Page Wireframe](assets/readme-files/epk.png "Press Kit Page Wireframe")
+![Contact Us Page Wireframe](assets/readme-files/wireframe-contact.png "Contact Us Page Wireframe")
 
 ### Design
 

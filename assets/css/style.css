@@ -99,6 +99,8 @@ header {
 
 /* for screens 600px and less font-size decreases and header changes in size */
 
+
+
 @media screen and (max-width: 600px) {
     #menu {
         font-size: 11px;
