@@ -286,7 +286,7 @@ body p {
 #sub-heading h3 {
     font-size: 150%;
     color: #134e57;
-    font-family: Petit Formal Script, sans-serif;
+    font-family: "Petit Formal Script", sans-serif;
 }
 
 #wigs h2 {
@@ -621,11 +621,8 @@ body p {
 
 .fcf-input-group {
     position: relative;
-    display: -ms-flexbox;
     display: flex;
-    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    -ms-flex-align: stretch;
     align-items: stretch;
     width: 100%;
 }
@@ -656,7 +653,7 @@ select.fcf-form-control[size], select.fcf-form-control[multiple] {
 }
 
 textarea.fcf-form-control {
-    font-family: -apple-system, Arial, sans-serif;
+    font-family: Arial, sans-serif;
     height: auto;
 }
 
@@ -688,9 +685,6 @@ label.fcf-label {
     text-align: center;
     vertical-align: middle;
     cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
     user-select: none;
     background-color: transparent;
     border: 1px solid transparent;
@@ -699,12 +693,6 @@ label.fcf-label {
     line-height: 1.5;
     border-radius: 0.25rem;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .fcf-btn {
-        transition: none;
-    }
 }
 
 .fcf-btn:hover {
@@ -720,19 +708,19 @@ label.fcf-label {
 .fcf-btn-primary {
     color: #fff;
     background-color: #d67447;
-    border-color: #d67447;
+    border-color: #8b4a2b;
 }
 
 .fcf-btn-primary:hover {
     color: #fff;
     background-color: #d67447;
-    border-color: #d67447;
+    border-color: #8b4a2b;
 }
 
 .fcf-btn-primary:focus, .fcf-btn-primary.focus {
     color: #fff;
     background-color: #d67447;
-    border-color: #d67447;
+    border-color: #8b4a2b;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
@@ -766,14 +754,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
         margin-top: 150px;
         padding-top: 30px;
         }
-}
-@supports (-webkit-touch-callout: none) {
-    .fcf-body {
-    display: block;
-    max-width: 90%;
-    margin: auto;
-    margin-top: 190px;
-    }
 }
 
 /* footer */ 
