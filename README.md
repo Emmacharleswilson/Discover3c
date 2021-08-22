@@ -2,7 +2,7 @@
 
 ![KryanLive Mockup Images](assets/readme-files/mockup.png)
 
-[View the live project here](https://rebeccatraceyt.github.io/KryanLive/)
+[View the live project here](https://emmacharleswilson.github.io/Discover3c/)
 
 ## Table of contents
 1. [Introduction](#Introduction)
@@ -162,7 +162,7 @@ The pairing of the fonts [Roboto](https://fonts.google.com/specimen/Roboto "Link
 For features that needed to be highlighted, such as the logo text and subheadings, the font [Codystar](https://fonts.google.com/specimen/Codystar "Link to Codystar Google Font") and [Petit Formal Script](http://fots.google.come/specimen/ "Link to Petit Formal Script Google Font") was used, with Sans Serif as the fallback.
 
 #### Imagery
-The selected imagery is modern and cohesively aesthetic, reflecting the artist's look and feel. 
+The selected imagery is modern and cohesively aesthetic, reflecting the style and feel of the website. 
 
 The imagery is catching and visually represents the theme of the website.
 
@@ -180,101 +180,65 @@ Each page of the website features a consistent responsive navigational system:
 
 
 <dl>
-  <dt><a href="index.html" target="_blank" alt="Kryan Home Page">Home Page</a></dt>
-  <dd>The Home Page is divided two columns wide on desktops and one column wide on mobile and tablet devices:
+  <dt><a href="index.html" target="_blank" alt="Discover3c Home Page">Home Page</a></dt>
+  <dd>The Home Page consists of a hero image and and about us section:
      <ul>
-          <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The imagery used was specifically chosen as it created a impactful first impression, setting the tone of the website for the user.
+          <li><strong>Hero Image</strong> - Occupying 100% of the page width, while viewing on a desktop. On mobile devices the image changes to fit the screen better, still occupying 100% of the page width. The imagery used was specifically chosen as it created a impactful first impression, setting the tone of the website for the user.
           </li>
-          <li><strong>Banner Container</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked, underneath the <strong>Hero Image</strong>. The purpose of the container is to provide an area in the center to highlight the latest release from the artist. This style was chosen in order to draw the users attention to the information straight away. In this, there is a <strong>call to action</strong> button linking to the external page where users can select their preferred platform to listen to the latest release.
+          <li><strong>About Us text and imagegy</strong> - The text occupies 60% of the page width while textwrapping around the image. The what is 3c hair section has an image occupying 40% of the page width while the text stays at 60%. This was to make the viewing of this information clear and easy to understand. On smaller screens, the width of the text and imagery increases to take up 90% of the page width and all image size decreases retrospectively.  
           </li>
      </ul>
   </dd>
 
-  <dt><a href="bio.html" target="_blank" alt="Kryan Bio Page">Bio Page</a></dt>
-  <dd>The Bio Page is divided similarly to the Home Page in order to maintain consistency. Just like the Home page, the Bio page is two columns wide on desktops and one column wide on mobile and tablet devices:
+  <dt><a href="protective.html" target="_blank" alt="Protective Styles Page">Protective Styles Page</a></dt>
+  <dd>The Protective Styles page was made with clear informative text and imagery in mind:
      <ul>
-          <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The imagery used was specifically chosen to visually represent the tonality of the artist's persona.
+          <li><strong>Imagegry</strong> - Occupying around 60% of the page width while viewing on desktop, each image was cafely selected to properly portray the style that is being talked about. This images reduce in size retrospectively when the screen size is reduced.
           </li>
-          <li><strong>Banner Container</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked, underneath the <strong>Hero Image</strong>. The container provides the biographic information of the artist. It was styled this way in order to draw the users attention to the biography, avoiding information overload in an already text-based area. The information is presented in an accordion menu.
+          <li><strong>Text</strong> - Occupying 60% of the page width while viewing on desktop, this was to keep everything nicely aligned and to the make the information clear and appealing. The width of the text increases to 90% on small screens and reduces in size. 
           </li>
      </ul>
   </dd>
 
-  <dt><a href="live.html" target="_blank" alt="Kryan Live Page">Live Page</a></dt>
-  <dd>The Live page structurally similar to the other pages with two clearly divided columns, providing a uniformed and consistent look for aesthetic purposes:
+  <dt><a href="regiment.html" target="_blank" alt="Regiment Page">Regiment Page</a></dt>
+  <dd>The look of this page is coherient with the other pages however the layout is slightly changed to allow for specific imagery and videos. 
      <ul> 
-          <li><strong>Hero Image</strong> - Occupying 50% of the page width, on the left side, while viewing on a desktop. On mobile and tablet devices, the image becomes stacked at the top of the page, occupying 100% of the page width. The image is a secondary feature of this page, but still accurately representing the look and feel of the website.
+          <li><strong>Wash Day video</strong> - Occupying around 60% width of the page while viewing on desktop, this highers the video's importance by making it a large aspect of this page. This was an <strong>embedded link</strong> from YouTube by Milky Candles. For smaller screens the video size decreases retrospectively.  
           </li>
-          <li><strong>Banner Container</strong> - Occupying 50% of the width, on the right side, while viewing on a desktop. On mobile and tablet devices, the container becomes stacked, underneath the <strong>Hero Image</strong>. The column contains a <strong>iframe</strong> feature of the event's location, providing users with easy access to directions to the venue. This feature is not available on mobile devices as, in trying to fit the two columns stacked, it would render the text unreadable. There are two <strong>call to action</strong> buttons on the page:
-          <ul>
-               <li>The venue name acts a button that leads users to the event page on Facebook.
-               </li>
-               <li> Clicking the tickets button (with hover animation) will lead the user to the ticket purchasing site for the event.
-               </li>
-          </ul>
-     </ul>
+          <li><strong>Product Suggestion</strong> - Split into a 1 row with 4 coloumns, the product images are nicely aligned into 4 blocks while viewing on a desktop. On smaller screens this changes to 2 rows with 2 columns allowing the images to display as a block of 4. 
+
+</ul>
 
   </dd>
 
-  <dt><a href="epk.html" target="_blank" alt="Kryan Press Kit Page">Electronic Press Kit Page</a></dt>
-  <dd> On the desktop, the EPK Page has a half page static background <strong>image carousel</strong> that is fixed and unmoving as the user scrolls through the page. The other half of the pages houses the EPK information in one <strong>container</strong>. The information is separated by a <strong>horizontal ruler</strong> in order to emphasis each piece. On a smaller screen, the page becomes stacked, whereby the images are at the top of the page, but not fixed, followed by the information. 
+  <dt><a href="contact.html" target="_blank" alt="Contact Us Page">Contact Us Page</a></dt>
+  <dd> On the desktop, the contact us form occupies 60% width of the page. This descreases retrospectively for tablet view. On mobile device the form takes up 90% width of the page. 
   </dd>
   <dd>There is a <strong>call to action</strong> button on the page:
      <ul>
-          <li>Linking to the external article where the quote is sourced from, in this case Indie Buddy</li>
+          <li>Which propts the user to fill out each section of the form, on submit the form resets.</li>
      </ul>
   </dd>
-  <dd>There are two <strong>embedded links</strong> that were chosen to showcase the artist's best releases in both audio and video format:
-     <ul>
-          <li><strong>Spotify</strong> embedding, showcasing the most played music on Kryan's Spotify page</li>
-          <li><strong>IGTV</strong> embedding, showcasing his latest music video</li>
-     </ul>
-  </dd>
-  <dd>
-     There is a point of contact at the bottom of the Press Kit providing:
-     <ul>
-          <li>An <strong>mailto</strong> button for users to contact PR representative </li>
-          <li>A <strong>contact form</strong>, allowing users to leave a message, by completing the required fields</li>
-     </ul>
-      
+  
   </dd>
 </dl>
  
 ### Existing Features
 - **Header Logo** - Appearing on every page for brand recognition. Clicking the logo will return the users to the home page, as expected.
 - **Header Navigation Bar** - Appearing on every page for a consistently easy and intuitive navigable system.
-- **Social Icons** - Appearing on every page, the icons are appropriate representations of the Social Media platforms, linking users to Kryan's page on each. On larger screens, the icons appear in the footer. On smaller screens the icons appear in the collapsed toggler function.
-- **Call To Action buttons** - Appearing on every page, excluding the Bio Page. Maintaining a consistent and uniform design throughout the page. Clicking the buttons will send users to external sites for various purposes:
-     - Music platform selection page
-     - Articles featuring Kryan
-     - External ticket purchasing site
-     - Link to events page
-     - Mailto action function for contacting PR representative
-- **Spotify Embed** - Snapshot of Kryan's Spotify page, showcasing a select number of tracks users can choose to play.
-- **IGTV Embed** - iframe element for a video uploaded to Instagram, showcasing a stripped down version of a latest release. This embed was copied straight from Instagram. The developer did not want to alter this text in order to maintain the integrity of the embedding. The only change made was to override the `min-width` value to `min-width: 70% !important;` in order to fixed a problem with the responsiveness of the embed.
-- **Google Maps Embed** - iframe embedding of Google maps, showing the location for the event on the Live Page. The map is omitted from small devices in order to ensure the readability of the page on mobile devices (an issue that the developer struggled with was trying to implement both but still keeping the text at a readable size).
-- **Accordion** - An accordion menu on the Bio Page allows user to look through the previous works of the artist. When one accordion is clicked, the others are automatically minimized for UX purposes.
-- **Carousel** - A carousel showcasing select images is implemented in the Press Kit page. Using press photos selected by the artist, the carousel highlights their previous events and photo shoots.
-- **Contact Form** - A contact form is used in the Press Kit page, in order to provide a point of contact for the user. The form is not validated but there is a `mailto` action above it, providing contact details for the Event Booker of the artist.
+- **Social Icons** - Appearing on every page in the footer, the icons are appropriate representations of the Social Media platforms, linking to preferred social media platform. 
+- **Videography** - Appearing on the Regiment page for a clearer understanding of the information being portrayed. 
+- **Contact Form** - A contact form is used on the Contact us page, in order to provide a point of contact for the user. The form is not validated and on pressing submit the form will reset.
 - **404 page** - A 404 page providing a clear call to action button to redirect the user to the home page.
-- **[Bio Page](bio.html "Kryan Bio Page")** - Providing biographic information for the users to get an understanding of who the artist is, and how they have created their music, presented in an accordion menu.
-- **[Live Page](live.html "Kryan Live Page")** - Providing information on upcoming events. On larger screens, an iframe embed of Google Maps is used to provide the location details of the event. There are also call to action buttons for:
-     - The venue site, for further information and directions
-     - The ticket purchasing platform for pricing and ordering
 
-- **[Electronic Press Kit Page](epk.html "Kryan Press Kit Page")** - Providing a compressed view of the artist with snapshots of relevant information:
-     - Media coverage (featured articles)
-     - Sample works - audio and video
-     - Contact channels for PR representative
-
+- **[Home Page](index.html "Home Page")** - Provide an eyecatching home imgae, with relevant information on who the website host is and what the website is about. Also provide a hair chart in order to identify 3c hair. 
+- **[Protective Styles Page](protective.html "Protective Styles Page")** - Providing information on the different styles and protection availible for this type of hair. 
+- **[Regiment Page](regiment.html "Regiment Page")** - Providing information how to look after this hair with supporting imagagry and videography. Also consists of product suggestion and steps involved in washing the hair. 
+- **[Contact Us Page](contact.html "Contact Us Page")** - Providing a simple form to allow the user to contact the website host.  
 ### Features to Implement in the future
-- **Merchandise Shop**
-     - **Feature** - set up an shop where the artist can sell their merchandise directly to fans online.
-     - **Reason for not featuring in this release** - JavaScript needed to implement.
- 
- - **[LinkFire](https://www.linkfire.com/ "Link to LinkFire page") embedding**
-     - **Feature** - smart-link embedding platform for music promotion
-     - **Reason for not featuring in this release** - Budget not available for services
+- **Product Shop**
+     - **Feature** - Set up a section where the user is able to buy suggested products. 
+     - **Reason for not featuring in this release** - Need permission in order to publicly sell products.
 
 [Back to top ⇧](#Kryan-Live)
 
@@ -309,13 +273,8 @@ margin: 0px auto;
 - [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
 - [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
 
-### Additional Languages Used
-- [JavaScript](https://en.wikipedia.org/wiki/JavaScript "Link to JavaScript Wiki")
-     - Used to implement a function that allowed the Navbar to change colour when user scrolls through page on mobile device, for UX purposes.
 
 ### Frameworks, Libraries & Programs Used
-- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/ "Link to Bootstrap page")
-     - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes.
 - [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
     - Google fonts was used to import the fonts "Roboto", "Lato" and "Montserrat" into the style.css file. These fonts were used throughout the project.
 - [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
@@ -326,8 +285,8 @@ margin: 0px auto;
      - GitHub was used to store the project after pushing
 - [Figma](https://www.figma.com/ "Link to Figma homepage")
      - Figma was used to create the wireframes during the design phase of the project.
-- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
-     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+- [Balsamiq](http://balsamiq/cloud/ "Link to Balsamiq Homepage")
+     - Balsamiq was used to create wireframes during the design phase of the project. 
 
 [Back to top ⇧](#Kryan-Live)
 
@@ -389,19 +348,17 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 ## Credits 
 
 ### Content
-- The text used in the biographic paragraphs were written by the artist, Ryan Kelly.
-- The quote used in the Press Kit page is sourced from [Indie Buddie](https://www.indiebuddie.com/kryan-scars-premiere/ "Link to Indie Buddie").
+- The text used in the Steps section on the Regiment Page have been sourced from (https://www.carolsdaughter.com/blog/hair/hair-care-tips/how-to-wash-curly-hair.html)
+- Some of the text used in the Protective Styles page were sourced form (https://www.glamour.com/gallery/cute-protective-styles)
 
 ### Media
-- All images were sourced from the artist, Ryan Kelly.
-- The text used in the 404 error page was sourced from [CopyAndPasteFonts](https://www.copyandpastefont.com/ "Link to Font editor") and edited by the developer.
+- Wash-day routine video was sourced from (https://www.youtube.com/watch?v=A4YMdv9Tqwo&t=3s)
+- All images appart from the about-us section image have been source from (https://www.google.com)
 
 ### Code 
 The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
-- [Bootstrap](https://getbootstrap.com/ "Link to BootStrap page")
-- [JSfiddle](https://jsfiddle.net/ "Link to JSfiddle page")
 
 [Back to top ⇧](#Kryan-Live)
 
