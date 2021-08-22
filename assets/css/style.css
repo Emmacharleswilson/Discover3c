@@ -59,7 +59,7 @@ h2 {
 
 #menu {
     font-size: 100%;
-    letter-spacing: 4px;
+    letter-spacing: 1px;
 }
 
 #menu, #logo {
@@ -97,18 +97,15 @@ header {
 }
 
 
-/* for screens 600px and less font-size decreases and header changes in size */
+/* for screens 700px and less font-size decreases and header changes in size */
 
-
-
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
     #menu {
         font-size: 11px;
         text-align: center;
         margin-left: 30px;
         margin-top: -22px;
         float: left;
-        letter-spacing: 3px;
     }
 
     header {
@@ -131,7 +128,7 @@ header {
 
 #img1 {
     display: block;
-    height: 620px;
+    height: 650px;
     width: 100%;
 }
 
@@ -151,6 +148,12 @@ header {
 }
 
 /* about us section */ 
+
+.Textwrap {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+ }
 
 #about-us h2 {
     font-family: Oswald, sans-serif;
