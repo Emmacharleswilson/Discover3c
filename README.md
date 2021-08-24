@@ -1,7 +1,5 @@
 # Discover3c
 
-![KryanLive Mockup Images](assets/readme-files/mockup.png)
-
 [View the live project here](https://emmacharleswilson.github.io/Discover3c/)
 
 ## Table of contents
