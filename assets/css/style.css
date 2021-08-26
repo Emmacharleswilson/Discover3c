@@ -26,16 +26,6 @@ body {
     
 }
 
-/* for screens 800px or less text fills screen */
-
-@media screen and (max-width: 800px) {
-    .body {
-        max-width: 90%;
-        display: block;
-        margin: auto;
-    }
-}
-
 /* headings and logo */
 
 h1  {
@@ -96,30 +86,6 @@ header {
 }
 
 
-/* for screens 700px and less font-size decreases and header changes in size */
-
-@media screen and (max-width: 700px) {
-    #menu {
-        font-size: 11px;
-        text-align: center;
-        margin-left: 30px;
-        margin-top: -22px;
-        float: left;
-        letter-spacing: 3px;
-    }
-
-    header {
-        height: 120px;
-    }
-    #logo {
-        font-size: 32px;
-        margin-left: 30px;
-        margin-top: 4px;
-        margin-bottom: -8px;
-    
-    }
-}
-
 /* home page image */ 
 
 #img1 {
@@ -130,23 +96,6 @@ header {
 
 #img2 {
     display: none;
-}
-
-@media all and (max-width: 1520px) {
-    #img1 {
-        width: 90%;
-        margin: auto;
-    }
-}
-@media all and (max-width: 600px) {
-    #img1 {
-        display: none;
-    }
-    #img2 {
-        display: block;
-        width: 100%;
-        padding-top: 120px;
-    }
 }
 
 /* about us section */ 
@@ -226,47 +175,6 @@ img {
     text-align: left;
 }
 
-/* for screens 800px and less text resizes */
-
-@media screen and (max-width: 800px) {
-    #what-is p {
-        display: block;
-        margin: auto;
-        max-width: 90%;
-        font-size: 16px;
-    }
-
-    #about-us p {
-        display: block;
-        margin: auto;
-        max-width: 90%;
-        font-size: 16px;
-    }
-
-    img {
-        width: 40%;
-        height: 40%;
-    }
-
-    #what-is img {
-        width: 80%;
-        height: 80%;
-        
-    }
-
-    #what-is h2 {
-        font-size: 30px;
-        margin-top: -15px;
-    }
-
-    #about-us h2 {
-        font-size: 30px;
-        padding-top: 30px;
-        padding-bottom: 20px;
-    }
-
-}
-
 /* protective styles */ 
 
 body p {
@@ -301,31 +209,6 @@ body p {
     font-family: Oswald, sans-serif;
     margin-top: 30px;
     padding-bottom: 10px;
-}
-
-@media screen and (max-width: 800px) {
-    #sub-heading h2 {
-        padding-top: 170px;
-        font-size: 30px;
-    }
-
-    #sub-heading h3 {
-        font-size: 15px;
-        padding-left: 1px;
-    }
-
-    #wigs h2 {
-        margin-top: 10px;
-        font-size: 10px;
-    }
-
-    #twists h2 {
-        font-size: 10px;
-    }
-
-    body p {
-        font-size: 16px;
-    }
 }
 
 /* protective styles images */ 
@@ -401,44 +284,6 @@ body p {
     width: 70%;
 }
 
-/* for screens less than 800px images resize */
-
-@media screen and (max-width: 800px) {
-    
-    .wig-1 {
-        width: 40%;
-    }
-    .bandu {
-        width: 43.3%;
-    }
-    .bandu-knots {
-        width: 45%;
-    }
-    .twists {
-        width: 100%;
-    }
-    .wig-2 {
-        width: 38%;
-    }
-    .crochet-braids {
-        width: 46.5%;
-    }
-    .crochet {
-        width: 40.4%;
-    }
-    .twist img {
-        width: 80%;
-    }
-    .box-braids img {
-        width: 80%;
-    }
-    #wigs h2 {
-        font-size: 25px;
-        padding-top: 10px;
-        padding-bottom: 4px;
-    }
-}
-
 /* regiment */
 
 .container {
@@ -501,54 +346,6 @@ body p {
     margin-left: -30px;
 }
 
-
-
-/* for screens 800px or less font-size decreases */
-
-@media screen and (max-width: 800px) {
-    #sub-heading h2 {
-        font-size: 30px;
-        margin-top: -20px;
-    }
-
-    #sub-heading h3 {
-        font-size: 15px;
-        padding-left: 1px;
-        padding-bottom: 10px;
-    }
-
-    #suggestion h2 {
-        font-size: 28px;
-        padding-bottom: 10px;
-    }
-
-    #steps h2 {
-        font-size: 28px;
-    }
-
-    #steps h3 {
-        font-size: 20px;
-    }
-
-    #steps li {
-        font-size: 15px;
-        padding-left: 20px;
-    }
-    
-    #steps i {
-        font-size: 20px;
-        margin-left: 3px;
-        margin-right: -20px;
-    
-    }
-
-    #steps #hand {
-       margin-left: auto;
-       margin-left: -1px;
-    }
-}
-
-
 /* product images */
 
 .column {
@@ -572,28 +369,6 @@ body p {
     
 #products .column {
     display: inline-block;
-}
-
-/* for screens less than 600px images change position */
-
-@media screen and (max-width: 600px) {
-    
-    .row {
-        display: flex;
-        flex-wrap: wrap;
-        padding: 0 4px;
-    }
-    .column {
-        flex: 50%;
-        padding: 7px;
-        height: 50%;
-    }
-    #steps h2 {
-        margin-left: 1px;
-    }
-    #steps li {
-        margin-left: 1px;
-    }
 }
 
 /* contact us form */ 
@@ -749,17 +524,6 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
     width: 100%;
 }
 
-/* for screens 600px or less contact us form changes width to fill screen */
-
-@media screen and (max-width: 600px)  {
-    .fcf-body {
-        display: block;
-        max-width: 90%;
-        margin: auto;
-        margin-top: 150px;
-        padding-top: 30px;
-        }
-}
 
 /* footer */ 
 
@@ -782,9 +546,216 @@ footer {
     color: #134e57;
 }
 
+/* media query's */
+
+@media screen and (max-width: 700px) {
+    #menu {
+        font-size: 11px;
+        text-align: center;
+        margin-left: 30px;
+        margin-top: -22px;
+        float: left;
+        letter-spacing: 3px;
+    }
+
+    header {
+        height: 120px;
+    }
+    #logo {
+        font-size: 32px;
+        margin-left: 30px;
+        margin-top: 4px;
+        margin-bottom: -8px;
+    
+    }
+}
+
+@media all and (max-width: 1520px) {
+    #img1 {
+        width: 90%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .body {
+        max-width: 90%;
+        display: block;
+        margin: auto;
+    }
+
+    #what-is p {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+        font-size: 16px;
+    }
+
+    #about-us p {
+        display: block;
+        margin: auto;
+        max-width: 90%;
+        font-size: 16px;
+    }
+
+    img {
+        width: 40%;
+        height: 40%;
+    }
+
+    #what-is img {
+        width: 80%;
+        height: 80%;
+        
+    }
+
+    #what-is h2 {
+        font-size: 30px;
+        margin-top: -15px;
+    }
+
+    #about-us h2 {
+        font-size: 30px;
+        padding-top: 30px;
+        padding-bottom: 20px;
+    }
+    #sub-heading h2 {
+        padding-top: 170px;
+        font-size: 30px;
+    }
+
+    #sub-heading h3 {
+        font-size: 15px;
+        padding-left: 1px;
+    }
+
+    #wigs h2 {
+        margin-top: 10px;
+        font-size: 10px;
+    }
+
+    #twists h2 {
+        font-size: 10px;
+    }
+
+    body p {
+        font-size: 16px;
+    }
+
+    .wig-1 {
+        width: 40%;
+    }
+    .bandu {
+        width: 43.3%;
+    }
+    .bandu-knots {
+        width: 45%;
+    }
+    .twists {
+        width: 100%;
+    }
+    .wig-2 {
+        width: 38%;
+    }
+    .crochet-braids {
+        width: 46.5%;
+    }
+    .crochet {
+        width: 40.4%;
+    }
+    .twist img {
+        width: 80%;
+    }
+    .box-braids img {
+        width: 80%;
+    }
+    #wigs h2 {
+        font-size: 25px;
+        padding-top: 10px;
+        padding-bottom: 4px;
+    }
+    #sub-heading h2 {
+        font-size: 30px;
+        margin-top: -20px;
+    }
+
+    #sub-heading h3 {
+        font-size: 15px;
+        padding-left: 1px;
+        padding-bottom: 10px;
+    }
+
+    #suggestion h2 {
+        font-size: 28px;
+        padding-bottom: 10px;
+    }
+
+    #steps h2 {
+        font-size: 28px;
+    }
+
+    #steps h3 {
+        font-size: 20px;
+    }
+
+    #steps li {
+        font-size: 15px;
+        padding-left: 20px;
+    }
+    
+    #steps i {
+        font-size: 20px;
+        margin-left: 3px;
+        margin-right: -20px;
+    
+    }
+
+    #steps #hand {
+       margin-left: auto;
+       margin-left: -1px;
+    }
+
+}
+
+@media screen and (max-width: 600px)  {
+    .fcf-body {
+        display: block;
+        max-width: 90%;
+        margin: auto;
+        margin-top: 150px;
+        padding-top: 30px;
+        }
+    .row {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 4px;
+        }
+    .column {
+        flex: 50%;
+        padding: 7px;
+        height: 50%;
+        }
+    #steps h2 {
+        margin-left: 1px;
+        }
+    #steps li {
+        margin-left: 1px;
+        }
+    #img1 {
+        display: none;
+        }
+    #img2 {
+        display: block;
+        width: 100%;
+        padding-top: 120px;
+        }
+}
+
 @media screen and (max-width: 2110px) {
     footer {
         position: absolute;
         bottom: 0;
     }
 }
+
+
