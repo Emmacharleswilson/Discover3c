@@ -43,7 +43,7 @@ This is the first of four Milestone Projects that the developer must complete du
 
 The main requirements were to make a responsive and static website with a minimum of three pages using primarily **HTML5** and **CSS3**.
 
-[Back to top ⇧](#Kryan-Live)
+[Back to top ⇧](#Discover3c)
 
 ## UX 
 
@@ -166,7 +166,7 @@ The imagery is catching and visually represents the theme of the website.
 
 All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found  [here](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html "Link to alt text reference on www.davidmacd.com").
 
-[Back to top ⇧](#Kryan-Live)
+[Back to top ⇧](#Discover3c)
 
 ## Features
 
@@ -238,33 +238,20 @@ Each page of the website features a consistent responsive navigational system:
      - **Feature** - Set up a section where the user is able to buy suggested products. 
      - **Reason for not featuring in this release** - Need permission in order to publicly sell products.
 
-[Back to top ⇧](#Kryan-Live)
+[Back to top ⇧](#Discover3c)
 
 ## Issues and Bugs 
 The developer ran into a number of issues during the development of the websites, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
 
-**Navbar Bug** - A bug was detected early on with the Navigation bar. In implementing a responsive navigation system, Bootstrap was used but there was bug that would not allow the navbar to be recolored to suit the the chosen colour scheme. In researching a cause (and solution) the developer found a question posted on [Stack Overflow](https://stackoverflow.com/questions/46237610/bootstrap-4-navbar-color-wont-change "Link to Stack Overflow solution") with a similar problem. It was from here that the developer was able to copy and edit the code given as a solution on Stack in order to implement a solution to the bug, with celebratory success.
+**Navbar Bug** - A bug was detected early on with the Navigation bar. On tablet view the navbar menu items would shift and go under the navbar. See image here (....). This was solved by reducing the size of the text and changing the letter spacing from `3px` to none. 
 
-**Home Page Responsiveness Bug** - A bug was detected in creating the HomePage where the mobile-first design approach was responsive but as soon as the breakpoint changed to a larger screen, the page layout would shift, creating inconsistencies in the design. In order to rectify this, the developer utilized a solution posted for a similar problem on [Stack Overflow](https://stackoverflow.com/questions/5703552/how-can-i-center-text-horizontally-and-vertically-inside-a-div-block "Link to Stack Overflow solution"). With this solution, the developer was able to create the desired responsiveness without having to use excessive and unnecessary lines of code.
+**Contact Us page footer bug** - A bug was detected when adding the footer to the contact us page. The footer (social media icons) was inside the contact us form. 
 
-**Hero Image Issue - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. The developer used the shorthand background element to implement the image but soon found there was an issue with the responsiveness of the image using this. When coding the background-size using the shorthand method, the image would disappear. The developer used an answer to a similar problem on [Stack Overflow](https://stackoverflow.com/questions/26236486/background-size-cover-not-working "Link to Stack Overflow solution") in order to understand the problem and, in turn, find a solution.
+**Hero Image Issue - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. On large desktop devices the image would stretch and look distorted, and on mobile view the image would crop to the point that it was unclear what was beign portraid. This was solved by adding a `media query` for large desktop's which would make the hero image only occupy 80% of the width of the page. On mobile view a second image the fitted nicely was implemented in order to improve the look of the home page. 
 
-**Social Links Issue** - A bug was detected in the Social Links when trying to implement the Bootstrap display property in order to only show the Social links in the toggler menu on smaller devices. In nesting an unordered list within another unordered list, the `padding-inline-start` of the `ul` user agent stylesheet would be set at a value of `40px`. The problem with this was that it was overriding the `d-inline` class that was called. In order to rectify this, the developer had to override the `padding-inline-start` value, using code sourced from [Stack Overflow](https://stackoverflow.com/questions/54000514/unordered-list-in-css-will-not-center "Link to Stack Overflow solution") with:
-```
-padding: 0px; 
-margin: 0px auto;
-```
-**Biographic Info Bug (Bio Page)** - A bug was detected on the Bio page whereby when the page was viewed on a smaller screen, the overflow content of the `p` element would be cut off, losing some of the biographic text. In order to solve the problem, the developer found a similar problem on [Stack Overflow](https://stackoverflow.com/questions/52394425/100vh-cuts-off-content-when-window-height-is-small "Link to Stack Overflow solution") where they were able to better understand the viewport limitations and find a solution, which was a simple switch from `height` to `min-height`.
+**Product Suggestion Images Bug** - A bug was detected in product suggestion images when viewing on different devices. On certain desktop's the product images would not display as usual. They are meant to be in a row and each image occupying 25% of the body's width. However on some screens the row would break down into 3 images on the first row and the last image underneath. 
 
-**Google Maps iFrame Issue (Live Page)** - A bug was detected with the iframe element of the Live Page (which was used to implement a Google Maps embed). There was a problem with the responsiveness of the iframe, causing it to extend its width far beyond the page upon resizing. while `overflow: hidden;` would have worked with larger screens, it was proving problematic with smaller screens. The developer found a post from [Digital Inspiration](https://www.labnol.org/internet/embed-responsive-google-maps/28333/ "Link to Digital Inspiration solution") in order to better understand the problem and to successfully implement a solution.
-
-**IGTV Bug (Press Kit Page)** - A bug was detected in the in IGTV embedding code which was affecting the responsiveness of the embed. The `min-width: 326px` value was distorting the video when viewing on a mobile device. Using a post with a similar problem from [WordPress](https://wordpress.org/support/topic/problem-embedding-instagram/ "Link to Digital Inspiration solution") the developer was able to override this with a `!important` value after the set element, allowing it to be responsive across all devices. The developer recognizes that this may not be best practice but, in this case, it was necessary in order to maintain responsiveness.
-
-**IGTV Issue (Press Kit Page)** - In copying the embedding code for the IGTV video, the developer noticed that there were inline styling elements within the code itself. Knowing that this is bad practice, the developer tried to implement the styling rules into their own external style sheet but this proved difficult. Some of the styling copied over easily but they soon ran into issues whereby the embedding stopped working completely. The decision was made to ultimately leave the code as is (not to edit it) in order to maintain the integrity of the embedding.
-
-**Contact Form Issue (Press Kit Page)** - In the initial designs, the developer planned to use a modal to display a success message once the user submitted their details in the contact form (the code for which can be found in earlier versions found in my commit history). However, on testing, it was noted that the success message modal would pop up even when the user had not completed all required fields. In lacking the knowledge to fix this issue with Java Script, the developer opted to use a short message pop-up on button click. 
-
-[Back to top ⇧](#Kryan-Live)
+[Back to top ⇧](#Discover3c)
 
 ## Technologies Used
 ### Main Languages Used
@@ -312,7 +299,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
+2. Locate the [GitHub Repository](https://github.com/emmacharleswilson/Discover3c "Link to GitHub Repo").
 3. At the top of the repository, on the right side of the page, select "Fork"
 4. You should now have a copy of the original repository in your GitHub account.
 
@@ -321,14 +308,14 @@ How to run this project locally:
 1. Install the [GitPod Browser](https://www.gitpod.io/docs/browser-extension/ "Link to Gitpod Browser extension download") Extension for Chrome.
 2. After installation, restart the browser.
 3. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
+2. Locate the [GitHub Repository](https://github.com/emmacharleswilson/Discover3c "Link to GitHub Repo").
 5. Click the green "GitPod" button in the top right corner of the repository.
 This will trigger a new gitPod workspace to be created from the code in github where you can work locally.
 
 How to run this project within a local IDE, such as VSCode:
 
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
+2. Locate the [GitHub Repository](https://github.com/emmacharleswilson/Discover3c "Link to GitHub Repo").
 3. Under the repository name, click "Clone or download".
 4. In the Clone with HTTPs section, copy the clone URL for the repository.
 5. In your local IDE open the terminal.
@@ -341,7 +328,7 @@ git clone https://github.com/USERNAME/REPOSITORY
 
 Further reading and troubleshooting on cloning a repository from GitHub [here](https://docs.github.com/en/free-pro-team@latest/github/creating-cloning-and-archiving-repositories/cloning-a-repository "Link to GitHub troubleshooting")
 
-[Back to top ⇧](#Kryan-Live)
+[Back to top ⇧](#Discover3c)
 
 ## Credits 
 
@@ -358,7 +345,7 @@ The developer consulted multiple sites in order to better understand the code th
 - [Stack Overflow](https://stackoverflow.com/ "Link to Stack Overflow page")
 - [W3Schools](https://www.w3schools.com/ "Link to W3Schools page")
 
-[Back to top ⇧](#Kryan-Live)
+[Back to top ⇧](#Discover3c)
 
 ## Acknowledgements
 
@@ -366,7 +353,7 @@ The developer consulted multiple sites in order to better understand the code th
 - I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
 - Lastly, I would like to extend my deepest gratitude to Ryan for trusting me in designing this site for him.
 
-[Back to top ⇧](#Kryan-Live)
+[Back to top ⇧](#Discover3c)
 
 ***
 
