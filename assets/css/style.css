@@ -6,7 +6,9 @@
     border: none;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
 }
 
@@ -23,12 +25,12 @@ body {
     max-width: 60%;
     display: block;
     margin: auto;
-    
+
 }
 
 /* headings and logo */
 
-h1  {
+h1 {
     font-family: Codystar, sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -52,9 +54,11 @@ h2 {
     letter-spacing: 1px;
 }
 
-#menu, #logo {
+#menu,
+#logo {
     line-height: 75px;
 }
+
 #menu li {
     float: right;
     list-style-type: none;
@@ -86,11 +90,10 @@ header {
 }
 
 
-/* home page image */ 
+/* home page image */
 
 #img1 {
     display: block;
-    height: 650px;
     width: 100%;
 }
 
@@ -98,13 +101,13 @@ header {
     display: none;
 }
 
-/* about us section */ 
+/* about us section */
 
 .Textwrap {
     float: right;
     margin-left: 10px;
     margin-bottom: 10px;
- }
+}
 
 #about-us h2 {
     font-family: Oswald, sans-serif;
@@ -114,7 +117,7 @@ header {
     font-size: 250%;
     color: #d67447;
     font-weight: 200;
-    
+
 }
 
 #about-us p {
@@ -135,6 +138,7 @@ header {
     margin: auto;
     max-width: 60%;
     line-height: 25px;
+    text-align: left;
 }
 
 img {
@@ -166,16 +170,7 @@ img {
 .what p {
     text-align: left;
 }
-
-#what-is  {
-    float: right;
-}
-
-#what-is p {
-    text-align: left;
-}
-
-/* protective styles */ 
+/* protective styles */
 
 body p {
     font-family: Roboto, sans-serif;
@@ -211,7 +206,7 @@ body p {
     padding-bottom: 10px;
 }
 
-/* protective styles images */ 
+/* protective styles images */
 
 #wigs h2 {
     font-size: 200%;
@@ -366,15 +361,15 @@ body p {
     text-align: center;
     padding-top: 10px;
 }
-    
+
 #products .column {
     display: inline-block;
 }
 
-/* contact us form */ 
+/* contact us form */
 
 #fcf-form {
-    display:block;
+    display: block;
 }
 
 .fcf-body {
@@ -428,7 +423,8 @@ body p {
     border: 1px solid #313131;
 }
 
-select.fcf-form-control[size], select.fcf-form-control[multiple] {
+select.fcf-form-control[size],
+select.fcf-form-control[multiple] {
     height: auto;
 }
 
@@ -480,7 +476,8 @@ label.fcf-label {
     text-decoration: none;
 }
 
-.fcf-btn:focus, .fcf-btn.focus {
+.fcf-btn:focus,
+.fcf-btn.focus {
     outline: 0;
     box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
 }
@@ -497,14 +494,16 @@ label.fcf-label {
     border-color: #8b4a2b;
 }
 
-.fcf-btn-primary:focus, .fcf-btn-primary.focus {
+.fcf-btn-primary:focus,
+.fcf-btn-primary.focus {
     color: #fff;
     background-color: #d67447;
     border-color: #8b4a2b;
     box-shadow: 0 0 0 0.2rem rgba(38, 143, 255, 0.5);
 }
 
-.fcf-btn-lg, .fcf-btn-group-lg>.fcf-btn {
+.fcf-btn-lg,
+.fcf-btn-group-lg>.fcf-btn {
     padding: 0.5rem 1rem;
     font-size: 1.25rem;
     line-height: 1.5;
@@ -520,27 +519,29 @@ label.fcf-label {
     margin-top: 0.5rem;
 }
 
-input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[type="button"].fcf-btn-block {
+input[type="submit"].fcf-btn-block,
+input[type="reset"].fcf-btn-block,
+input[type="button"].fcf-btn-block {
     width: 100%;
 }
 
 
-/* footer */ 
+/* footer */
 
-footer { 
+footer {
     height: 150px;
     clear: both;
 }
 
-.social-networks { 
+.social-networks {
     text-align: center;
 }
 
-.social-networks > li { 
+.social-networks>li {
     display: inline;
 }
 
-.social-networks i { 
+.social-networks i {
     font-size: 160%;
     margin: 1%;
     padding: 5%;
@@ -562,18 +563,19 @@ footer {
     header {
         height: 120px;
     }
+
     #logo {
         font-size: 32px;
         margin-left: 30px;
         margin-top: 4px;
         margin-bottom: -8px;
-    
+
     }
 }
 
 @media all and (max-width: 1520px) {
     #img1 {
-        width: 90%;
+        width: 95%;
         margin: auto;
     }
 }
@@ -607,7 +609,7 @@ footer {
     #what-is img {
         width: 80%;
         height: 80%;
-        
+
     }
 
     #what-is h2 {
@@ -620,6 +622,7 @@ footer {
         padding-top: 30px;
         padding-bottom: 20px;
     }
+
     #sub-heading h2 {
         padding-top: 170px;
         font-size: 30px;
@@ -646,35 +649,45 @@ footer {
     .wig-1 {
         width: 40%;
     }
+
     .bandu {
         width: 43.3%;
     }
+
     .bandu-knots {
         width: 45%;
     }
+
     .twists {
         width: 100%;
     }
+
     .wig-2 {
         width: 38%;
     }
+
     .crochet-braids {
         width: 46.5%;
     }
+
     .crochet {
         width: 40.4%;
     }
+
     .twist img {
         width: 80%;
     }
+
     .box-braids img {
         width: 80%;
     }
+
     #wigs h2 {
         font-size: 25px;
         padding-top: 10px;
         padding-bottom: 4px;
     }
+
     #sub-heading h2 {
         font-size: 30px;
         margin-top: -20px;
@@ -703,58 +716,58 @@ footer {
         font-size: 15px;
         padding-left: 20px;
     }
-    
+
     #steps i {
         font-size: 20px;
         margin-left: 3px;
         margin-right: -20px;
-    
+
     }
 
     #steps #hand {
-       margin-left: auto;
-       margin-left: -1px;
+        margin-left: auto;
+        margin-left: -1px;
     }
 
 }
 
-@media screen and (max-width: 600px)  {
+@media screen and (max-width: 600px) {
     .fcf-body {
         display: block;
         max-width: 90%;
         margin: auto;
         margin-top: 150px;
         padding-top: 30px;
-        }
+    }
+
     .row {
         display: flex;
         flex-wrap: wrap;
         padding: 0 4px;
-        }
+    }
+
     .column {
         flex: 50%;
         padding: 7px;
         height: 50%;
-        }
+    }
+
     #steps h2 {
         margin-left: 1px;
-        }
+    }
+
     #steps li {
         margin-left: 1px;
-        }
+    }
+
     #img1 {
         display: none;
-        }
+    }
+
     #img2 {
         display: block;
         width: 100%;
         padding-top: 120px;
-        }
-}
-
-@media screen and (max-width: 2110px) {
-    footer {
-        
     }
 }
 

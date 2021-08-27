@@ -227,7 +227,6 @@ Each page of the website features a consistent responsive navigational system:
 - **Social Icons** - Appearing on every page in the footer, the icons are appropriate representations of the Social Media platforms, linking to preferred social media platform. 
 - **Videography** - Appearing on the Regiment page for a clearer understanding of the information being portrayed. 
 - **Contact Form** - A contact form is used on the Contact us page, in order to provide a point of contact for the user. The form is not validated and on pressing submit the form will reset.
-- **404 page** - A 404 page providing a clear call to action button to redirect the user to the home page.
 
 - **[Home Page](index.html "Home Page")** - Provide an eyecatching home imgae, with relevant information on who the website host is and what the website is about. Also provide a hair chart in order to identify 3c hair. 
 - **[Protective Styles Page](protective.html "Protective Styles Page")** - Providing information on the different styles and protection availible for this type of hair. 
@@ -247,7 +246,7 @@ The developer ran into a number of issues during the development of the websites
 
 **Contact Us page footer bug** - A bug was detected when adding the footer to the contact us page. The footer (social media icons) was inside the contact us form. 
 
-**Hero Image Issue - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. On large desktop devices the image would stretch and look distorted, and on mobile view the image would crop to the point that it was unclear what was beign portraid. This was solved by adding a `media query` for large desktop's which would make the hero image only occupy 80% of the width of the page. On mobile view a second image the fitted nicely was implemented in order to improve the look of the home page. 
+**Hero Image Issue - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. On large desktop devices the image would stretch and look distorted, and on mobile view the image would crop to the point that it was unclear what was being portraid. This was solved by adding a `media query` for large desktop's which would make the hero image only occupy 80% of the width of the page. On mobile view a second image the fitted nicely was implemented in order to improve the look of the home page. 
 
 **Product Suggestion Images Bug** - A bug was detected in product suggestion images when viewing on different devices. On certain desktop's the product images would not display as usual. They are meant to be in a row and each image occupying 25% of the body's width. However on some screens the row would break down into 3 images on the first row and the last image underneath. 
 
@@ -331,10 +330,13 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 [Back to top ⇧](#Discover3c)
 
 ## Credits 
+- I would like to thank Harry Dhillon and Daisy Gunn for the help on some of the issues and bugs. Also Harry for just general help and guidence especially on the CSS file. 
+- I would like to thank my friends and family for providing insite into how and if the website would work for them and if the content is clear.  
 
 ### Content
 - The text used in the Steps section on the Regiment Page have been sourced from (https://www.carolsdaughter.com/blog/hair/hair-care-tips/how-to-wash-curly-hair.html)
 - Some of the text used in the Protective Styles page were sourced form (https://www.glamour.com/gallery/cute-protective-styles)
+- Some text in the Product Suggestion section were sourced from (https://www.stylecaster.com) and (https://www.boots.com)
 
 ### Media
 - Wash-day routine video was sourced from (https://www.youtube.com/watch?v=A4YMdv9Tqwo&t=3s)
