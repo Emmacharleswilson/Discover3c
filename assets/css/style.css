@@ -21,8 +21,8 @@ body {
 
 }
 
-.styles-body {
-    max-width: 60%;
+.pbody {
+    max-width: 90%;
     display: block;
     margin: auto;
 
@@ -685,10 +685,6 @@ footer {
         padding-bottom: 4px;
     }
 
-    #wigs p {
-        width: 100%;
-    }
-
     #sub-heading h2 {
         font-size: 30px;
         margin-top: -20px;
@@ -764,7 +760,7 @@ footer {
     }
 
     footer {
-        height: 80px;
+        height: 70px;
         padding-top: 10px;
     }
 
