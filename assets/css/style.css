@@ -752,10 +752,6 @@ footer {
         height: 60%;
     }
 
-    #steps li {
-        padding-left: 1px;
-    }
-
     footer {
         height: 150px;
     }
@@ -786,13 +782,13 @@ footer {
     }
 
     #steps h2 {
-        margin-left: 1px;
+        margin-left: 5px;
     }
 
     #steps li {
-        margin-left: 1px;
+        padding-left: 1px;
     }
-
+    
     #img1 {
         display: none;
     }
