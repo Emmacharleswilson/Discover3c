@@ -170,6 +170,10 @@ img {
 .what p {
     text-align: left;
 }
+
+#what-is {
+    clear: both;
+}
 /* protective styles */
 
 body p {
