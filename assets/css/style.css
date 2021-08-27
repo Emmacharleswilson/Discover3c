@@ -533,7 +533,8 @@ input[type="button"].fcf-btn-block {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 110px;
+    padding-top: 10px;
     clear: both;
 }
 
