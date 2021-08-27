@@ -736,6 +736,39 @@ footer {
 
 }
 
+/* tablet view */
+
+@media screen and (max-width: 994px) {
+    .fcf-body {
+        display: block;
+        max-width: 70%;
+        margin: auto;
+        margin-top: 150px;
+        padding-top: 30px;
+    }
+    
+    img {
+        width: 25%;
+        height: 25%;
+    }
+
+    #what-is img {
+        width: 60%;
+        height: 60%;
+    }
+
+    #steps li {
+        padding-left: 1px;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+}
+
+/* mobile device view */
+
 @media screen and (max-width: 600px) {
     .fcf-body {
         display: block;
@@ -775,5 +808,6 @@ footer {
         padding-top: 120px;
     }
 }
+
 
 
