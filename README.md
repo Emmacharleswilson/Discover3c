@@ -57,15 +57,14 @@ The main requirements were to make a responsive and static website with a minimu
 ### User Stories
 #### Someone with 3c hair:
 1. As someone with 3c hair, I want to easily navigate through the website to find the relevant content.
-2. As someone with 3c hair, I want to learn the background to this hair.
 3. As someone with 3c hair, I want a clear guide to identify my hair type.
 4. As someone with 3c hair, I want to be able to view options for my hair.
 5. As someone with 3c hair, I want information that enables me to manage my hair effectively, including product suggestions. 
 
 #### Friends or parents of those with 3c hair:
-1. As a current fan, I want to navigate to information about upcoming live events in order to securely order tickets.
-2. As a current fan, I want to find out about new and upcoming releases to be able to pre-save or listen to the music.
-3. As a current fan, I want to easily navigate to the artist's music page on my desired music platform, e.g. Spotify.
+1. As a friend or parent of someone with 3c hair, I want to easily navigate through the website to find the relevant content. 
+2. As a friend or parent of someone with 3c hair, I want to learn how to manage 3c hair.
+3. As a friend or parent of someone with 3c hair, I want to learn what products to use on 3c hair. 
 
 ### Development Planes
 
@@ -272,7 +271,7 @@ The developer ran into a number of issues during the development of the websites
 - [Balsamiq](http://balsamiq/cloud/ "Link to Balsamiq Homepage")
      - Balsamiq was used to create wireframes during the design phase of the project. 
 
-[Back to top ⇧](#Kryan-Live)
+[Back to top ⇧](#Discover3c)
 
 ## Testing
 
@@ -335,7 +334,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ### Content
 - The text used in the Steps section on the Regiment Page have been sourced from (https://www.carolsdaughter.com/blog/hair/hair-care-tips/how-to-wash-curly-hair.html)
-- Some of the text used in the Protective Styles page were sourced form (https://www.glamour.com/gallery/cute-protective-styles)
+- Some of the text used in the Protective Styles page were sourced form (https://www.glamour.com/gallery/cute-protective-styles) and (https://www.cosmetify.com/blog/natural-protective-hair-styles/)
 - Some text in the Product Suggestion section were sourced from (https://www.stylecaster.com) and (https://www.boots.com)
 
 ### Media
