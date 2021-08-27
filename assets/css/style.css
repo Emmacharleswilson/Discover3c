@@ -606,11 +606,6 @@ footer {
         font-size: 16px;
     }
 
-    img {
-        width: 40%;
-        height: 40%;
-    }
-
     #what-is img {
         width: 80%;
         height: 80%;
@@ -806,6 +801,11 @@ footer {
         display: block;
         width: 100%;
         padding-top: 120px;
+    }
+    
+    img {
+        height: 38%;
+        width: 38%;
     }
 }
 
