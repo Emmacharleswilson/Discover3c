@@ -529,6 +529,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 footer { 
     height: 150px;
+    clear: both;
 }
 
 .social-networks { 
@@ -753,8 +754,7 @@ footer {
 
 @media screen and (max-width: 2110px) {
     footer {
-        position: absolute;
-        bottom: 0;
+        
     }
 }
 
