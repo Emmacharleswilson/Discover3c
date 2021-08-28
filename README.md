@@ -1,5 +1,7 @@
 # Discover3c
 
+![Discover3c Mockup Images](assets/readme-files/responsive.png)
+
 [View the live project here](https://emmacharleswilson.github.io/Discover3c/)
 
 ## Table of contents
@@ -241,13 +243,15 @@ Each page of the website features a consistent responsive navigational system:
 ## Issues and Bugs 
 The developer ran into a number of issues during the development of the websites, with the noteworthy ones listed below, along with solutions or ideas to implement in the future.
 
-**Navbar Bug** - A bug was detected early on with the Navigation bar. On tablet view the navbar menu items would shift and go under the navbar. See image here (....). This was solved by reducing the size of the text and changing the letter spacing from `3px` to none. 
+**Navbar Bug** - A bug was detected early on with the Navigation bar. On tablet view the navbar menu items would shift and go under the navbar. See image here (....). This was solved by reducing the size of the text and changing the letter spacing from `3px` to none, removing the line height and repositioning using margins and padding.
 
-**Contact Us page footer bug** - A bug was detected when adding the footer to the contact us page. The footer (social media icons) was inside the contact us form. 
+**Contact Us page footer bug** - A bug was detected when adding the footer to the contact us page. The footer (social media icons) was inside the contact us form. This was solved by finding that there was a missing </div> that was causing the footer to be picked up in the body of the contact us form and adding </div> in the appropriate place. 
 
-**Hero Image Issue - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. On large desktop devices the image would stretch and look distorted, and on mobile view the image would crop to the point that it was unclear what was being portraid. This was solved by adding a `media query` for large desktop's which would make the hero image only occupy 80% of the width of the page. On mobile view a second image the fitted nicely was implemented in order to improve the look of the home page. 
+**Hero Image Issue - Home Page** - A bug was detected when implementing the hero image to be used for the Home Page. On large desktop devices the image would stretch and look distorted, and on mobile view the image would crop to the point that it was unclear what was being portraid. This was solved by adding a `media query` for large desktop's which would make the hero image only occupy 80% of the width of the page. On mobile view a second image that fitted nicely was implemented in order to improve the look of the home page. 
 
-**Product Suggestion Images Bug** - A bug was detected in product suggestion images when viewing on different devices. On certain desktop's the product images would not display as usual. They are meant to be in a row and each image occupying 25% of the body's width. However on some screens the row would break down into 3 images on the first row and the last image underneath. 
+**Product Suggestion Images Bug** - A bug was detected in product suggestion images when viewing on different devices. On certain desktop's the product images would not display as usual. They were meant to be in a row and each image occupying 25% of the body's width. However on some screens the row would break down into 3 images on the first row and the last image underneath. This is ongoing issue with the hopes of fixing with more time. 
+
+**Contact Us form bug** - A bug was detected when testing the contact us form. You were able to put in one letter on the name field and you were also able to adjust the size of the comment box. This was fixed by adding a minimum character of 5 to the input fields giving the comment section a `resize: none;`.
 
 [Back to top ⇧](#Discover3c)
 
