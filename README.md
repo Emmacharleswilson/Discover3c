@@ -153,7 +153,7 @@ Press Kit Page:
 #### Colour Scheme
 The main colours used throughout the website are Ecru, Brown and Peach with accents of Teal and Orange. 
 
-The chosen colour scheme was to reflect nature and the colours that are typically found in this type of hair.
+These chosen colours were because they are typically found in natural, and are complementary to the natural colours of skin and hair. They also provoke feelings of self-care and serenity.  
 
 #### Typography
 The pairing of the fonts [Roboto](https://fonts.google.com/specimen/Roboto "Link to Roboto Google Font") and [Oswald](https://fonts.google.com/specimen/Oswald "Link to Oswald Google Font") is used throughout the website with Sans Serif as the fallback font in case of import failure. 
@@ -161,7 +161,7 @@ The pairing of the fonts [Roboto](https://fonts.google.com/specimen/Roboto "Link
 For features that needed to be highlighted, such as the logo text and subheadings, the font [Codystar](https://fonts.google.com/specimen/Codystar "Link to Codystar Google Font") and [Petit Formal Script](http://fots.google.come/specimen/ "Link to Petit Formal Script Google Font") was used, with Sans Serif as the fallback.
 
 #### Imagery
-The selected imagery is modern and cohesively aesthetic, reflecting the style and feel of the website. 
+The selected imagery is modern and cohesively aesthetic, reflecting the style and feel of the website. It is also supporting of any informative text presented. 
 
 The imagery is catching and visually represents the theme of the website.
 
