@@ -143,7 +143,7 @@ Bio Page:
 ![Protective Styles Page Wireframe](assets/readme-files/wireframe-style.png "Protective Styles Page Wireframe")
 
 Live Page:
-![Regiment Page Wireframe](assets/readme-files/wireframe-regiment.png "Regiment Page Wireframe")
+![Regimen Page Wireframe](assets/readme-files/wireframe-regimen.png "Regimen Page Wireframe")
 
 Press Kit Page:
 ![Contact Us Page Wireframe](assets/readme-files/wireframe-contact.png "Contact Us Page Wireframe")
@@ -199,7 +199,7 @@ Each page of the website features a consistent responsive navigational system:
      </ul>
   </dd>
 
-  <dt><a href="regiment.html" target="_blank" alt="Regiment Page">Regiment Page</a></dt>
+  <dt><a href="regimen.html" target="_blank" alt="Regimen Page">Regimen Page</a></dt>
   <dd>The look of this page is coherient with the other pages however the layout is slightly changed to allow for specific imagery and videos. 
      <ul> 
           <li><strong>Wash Day video</strong> - Occupying around 60% width of the page while viewing on desktop, this highers the video's importance by making it a large aspect of this page. This was an <strong>embedded link</strong> from YouTube by Milky Candles. For smaller screens the video size decreases retrospectively.  
@@ -231,7 +231,7 @@ Each page of the website features a consistent responsive navigational system:
 
 - **[Home Page](index.html "Home Page")** - Provide an eyecatching home imgae, with relevant information on who the website host is and what the website is about. Also provide a hair chart in order to identify 3c hair. 
 - **[Protective Styles Page](protective.html "Protective Styles Page")** - Providing information on the different styles and protection availible for this type of hair. 
-- **[Regiment Page](regiment.html "Regiment Page")** - Providing information how to look after this hair with supporting imagagry and videography. Also consists of product suggestion and steps involved in washing the hair. 
+- **[Regimen Page](regimen.html "Regimen Page")** - Providing information how to look after this hair with supporting imagagry and videography. Also consists of product suggestion and steps involved in washing the hair. 
 - **[Contact Us Page](contact.html "Contact Us Page")** - Providing a simple form to allow the user to contact the website host.  
 ### Features to Implement in the future
 - **Product Shop**
