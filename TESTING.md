@@ -59,3 +59,30 @@
      
 
 [Back to top ⇧](#Discover3c---Testing)
+
+## Manual Testing
+
+### Common Elements Testing
+Manual testing was conducted on the following elements that appear on every page:
+
+- Hovering over the Navbar will trigger `hover` effect, confirming the link the users are on
+- When on a page that page will highlight orange
+
+     ![Navbar hover effect](assets/readme-files/navbar-hover.png)
+
+- Clicking on prefered social media platform will redirect the user to that particular platform 
+- On mobile device the menu items will go under the logo
+
+     ![Menu items](assets/readme-files/menu-items.png)
+
+### Home Page
+Manual testing was conducted on the following elements of the [Home Page](index.html):
+
+- Clicking logo on left of screen will refresh the landing page
+- On mobile device the home main image will change
+
+     ![Home Image change](assets/readme-files/home-image.png)
+
+- On mobile device, images and text should decrease in size and padding should decrease allowing more space for content 
+
+     ![Home Page responsiveness](assets/readme-files/home-responsiveness.png)
