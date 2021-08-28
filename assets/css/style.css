@@ -22,7 +22,7 @@ body {
 }
 
 .pbody {
-    max-width: 90%;
+    max-width: 60%;
     display: block;
     margin: auto;
 
@@ -583,7 +583,7 @@ footer {
 }
 
 @media screen and (max-width: 800px) {
-    .body {
+    .pbody {
         max-width: 90%;
         display: block;
         margin: auto;
