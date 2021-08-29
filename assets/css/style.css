@@ -310,6 +310,7 @@ body p {
     line-height: 25px;
     list-style: none;
     margin-left: 40px;
+    padding-top: 15px;
 }
 
 #steps h3 {
