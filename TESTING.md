@@ -66,11 +66,17 @@
 Manual testing was conducted on the following elements that appear on every page:
 
 - Hovering over the Navbar will trigger `hover` effect, confirming the link the users are on
+
+     ![Navbar hover effect](assets/readme-files/navbar-hover_SparkVideo.gif)
+
 - When on a page that page will highlight orange
 
-     ![Navbar hover effect](assets/readme-files/navbar-hover.png)
+     ![Navbar click effect](assets/readme-files/navbar-hover.png)
 
 - Clicking on prefered social media platform will redirect the user to that particular platform 
+
+     ![Social Media link](assets/readme-files/socialmedia_SparkVideo.gif)
+
 - On mobile device the menu items will go under the logo
 
      ![Menu items](assets/readme-files/menu-items.png)
@@ -79,6 +85,9 @@ Manual testing was conducted on the following elements that appear on every page
 Manual testing was conducted on the following elements of the [Home Page](index.html):
 
 - Clicking logo on left of screen will refresh the landing page
+
+     ![Return to Home Page](assets/readme-files/homepage_SparkVideo.gif)
+
 - On mobile device the home main image will change
 
      ![Home Image change](assets/readme-files/home-image.png)
@@ -91,6 +100,9 @@ Manual testing was conducted on the following elements of the [Home Page](index.
 Manual testing was conducted on the following elements of the [Protective Styles Page](protective.html):
 
 - Clicking the logo on the top left of the page will return the user to the Home Page 
+
+     ![Return to Home Page](assets/readme-files/homepage_SparkVideo.gif)
+
 - On mobile device, images and text should decrease in size and padding should decrease allowing more space for content 
 
      ![Protective Styles Page responsiveness](assets/readme-files/ps-responsiveness.png)
@@ -99,7 +111,13 @@ Manual testing was conducted on the following elements of the [Protective Styles
 Manual testing was conducted on the following elements of the [Regimen Page](regimen.html):
 
 - Clicking on the logo on the top left of the page will return the user to the Home Page 
+
+     ![Return to Home Page](assets/readme-files/homepage_SparkVideo.gif)
+
 - Clicking on the video will play the video, and the user will get the option to play the video from YouTube directly 
+
+     ![YouTube video](assets/readme-files/youtube_SparkVideo.gif)
+
 - On mobile device, product suggestion images should collapse into a block of four, two images on either row for UX purposes
 
      ![Proudct Suggestion Images responsiveness](assets/readme-files/product-responsiveness.png)
@@ -112,6 +130,9 @@ Manual testing was conducted on the following elements of the [Regimen Page](reg
 Manual testing was conducted on the following elements of the [Contact Us Page](contact.html):
 
 - Clicking on the logo on the top left of the page will return the user to the Home Page 
+
+     ![Return to Home Page](assets/readme-files/homepage_SparkVideo.gif)
+
 - Form will prompt the user to fill out each input field or the form won't submit 
 
      ![Contact Us Form input field](assets/readme-files/contact-field.png)
@@ -121,6 +142,9 @@ Manual testing was conducted on the following elements of the [Contact Us Page](
      ![Contact Us Form input field minimun character length](assets/readme-files/min-character.png)
 
 - On submitted the form the page will refresh 
+
+     ![Contact Form refresh](assets/readme-files/contact_SparkVideo.gif)
+
 - On mobile device, the form will increase in width to fill up the page 
 
      ![Contact Us Form responsiveness](assets/readme-files/contact-responsiveness.png)
@@ -185,9 +209,9 @@ The [W3C Validator](https://validator.w3.org/) service was used to validate the 
 Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to many UX changes in order to create a better experience. 
 
 It was through this testing that the following changes were made:
-- Change to the Navbar background color on mobiles in order for the toggler menu icon to more distinguishable to the background image.
-- Change to Navbar font-size on mobile for clearer reading.
-- Complete overhaul of Live page in order to display the information in a more user-friendly way.
+- Change the home image for mobile device so that the image fit and had a high resolution.
+- Increase font size for desktop view for easy reading.
+- Lighten background colour slightly for easy readability. 
 
 [Back to top ⇧](#Discover3c---Testing)
 
