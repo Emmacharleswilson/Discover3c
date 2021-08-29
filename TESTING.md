@@ -125,12 +125,70 @@ Manual testing was conducted on the following elements of the [Contact Us Page](
 
      ![Contact Us Form responsiveness](assets/readme-files/contact-responsiveness.png)
 
+[Back to top ⇧](#Kryan-Live---Testing)
+
+## Automated Testing
+
 The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used to validate the `CSS` code used.
 
 **Results:**
 ![Style sheet validation results](assets/readme-files/jigsaw-validator.png)
+Although there were no technical issues with the developers CSS code, it is not written in the best manner (i.e styles are not written in preferred order, class names and id tag's could be used in a better way with clearer names). This would be improved with more time 
 
 The [W3C Validator](https://validator.w3.org/) service was used to validate the `HTML` code used. 
 
 **Results:** 
-![Style sheet validation results](assets/readme-files/W3C-validator.png)
+
+- Home Pgae 
+
+     ![Style sheet validation results](assets/readme-files/index-validator.png)
+
+- Protective Styles Page 
+
+     ![Style sheet validation results](assets/readme-files/protective-validator.png)
+
+- Regimen Page 
+
+     ![Style sheet validation results](assets/readme-files/regimen-validator.png)
+
+- Contact Us Page 
+
+     ![Style sheet validation results](assets/readme-files/contact-validator.png)
+
+### Browser Validation
+- Chrome - [test image](assets/readme-files/chrome.png)
+- Safari - [test image](assets/readme-files/safari.png)
+- Firefox - [test image](assets/readme-files/firefox.png)
+
+### Lighthouse Auditing
+- Home Page 
+
+     ![Style sheet validation results](assets/readme-files/lh-index.png)
+
+- Protective Styles Page 
+
+     ![Style sheet validation results](assets/readme-files/lh-protective.png)
+
+- Regimen Pgae 
+
+     ![Style sheet validation results](assets/readme-files/lh-regimen.png)
+
+- Contact Us Page 
+
+     ![Style sheet validation results](assets/readme-files/lh-contact.png)
+
+- No recommendations in this report have been implemented in the first release but will be looked into for future releases.
+
+[Back to top ⇧](#Discover3c---Testing)
+
+## User testing 
+Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues. Their helpful advice throughout the process led to many UX changes in order to create a better experience. 
+
+It was through this testing that the following changes were made:
+- Change to the Navbar background color on mobiles in order for the toggler menu icon to more distinguishable to the background image.
+- Change to Navbar font-size on mobile for clearer reading.
+- Complete overhaul of Live page in order to display the information in a more user-friendly way.
+
+[Back to top ⇧](#Discover3c---Testing)
+
+***
