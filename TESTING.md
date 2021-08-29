@@ -1,6 +1,6 @@
 # Discover3c - Testing 
 
-[Main README.md file](/README.md)
+[Main README.md file](README.md)
 
 [View live project](https://emmacharleswilson.github.io/Discover3c/)
 

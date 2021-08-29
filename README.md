@@ -66,11 +66,11 @@ The main requirements were to make a responsive and static website with a minimu
 #### Friends or parents of those with 3c hair:
 1. As a friend or parent of someone with 3c hair, I want to easily navigate through the website to find the relevant content. 
 2. As a friend or parent of someone with 3c hair, I want to learn how to manage 3c hair.
-3. As a friend or parent of someone with 3c hair, I want to learn what products to use on 3c hair. 
+3. As a friend or parent of someone with 3c hair, I want to learn what product's to use on 3c hair. 
 
 ### Development Planes
 
-In order to create a comprehensive and informative website, the developer worked closely with the artist to distinguish the required functionality of the site and how it would answer the user stories, as described above.
+In order to create a comprehensive and informative website, the developer researched what similar websites included, asked people with 3c hair what would be helpful and looked into personal experience. 
 
 #### Strategy
 Broken into three categories, the website will focus on the following target audiences:
@@ -98,12 +98,11 @@ The website needs to enable the **user** to:
 - Obtain desired information
 - Gain knowledge on this particular topic
 - Contact website host
-- Upcoming live events
 - Find them on their preferred social media platform)
+- Provide an easily navigable website for users to find relevant information
 
 The website needs to enable the **host** to:
 - Develop an online presence 
-- Provide an easily navigable website for users to find relevant information:
 - Reach the target demographic 
 - Provide channel of communication for specific products and product providers
 
@@ -153,7 +152,7 @@ Press Kit Page:
 #### Colour Scheme
 The main colours used throughout the website are Ecru, Brown and Peach with accents of Teal and Orange. 
 
-These chosen colours were because they are typically found in natural, and are complementary to the natural colours of skin and hair. They also provoke feelings of self-care and serenity.  
+These chosen colours were because they are typically found in nature, and are complementary to the natural colours of skin and hair. They also provoke feelings of self-care and serenity.  
 
 #### Typography
 The pairing of the fonts [Roboto](https://fonts.google.com/specimen/Roboto "Link to Roboto Google Font") and [Oswald](https://fonts.google.com/specimen/Oswald "Link to Oswald Google Font") is used throughout the website with Sans Serif as the fallback font in case of import failure. 
@@ -165,7 +164,7 @@ The selected imagery is modern and cohesively aesthetic, reflecting the style an
 
 The imagery is catching and visually represents the theme of the website.
 
-All imagery provides alternative text to be used in the event that the element cannot be rendered. The template used to provide alt text for background images can be found  [here](http://www.davidmacd.com/blog/alternate-text-for-css-background-images.html "Link to alt text reference on www.davidmacd.com").
+All imagery provides alternative text to be used in the event that the element cannot be rendered.
 
 [Back to top ⇧](#Discover3c)
 
@@ -182,7 +181,7 @@ Each page of the website features a consistent responsive navigational system:
   <dt><a href="index.html" target="_blank" alt="Discover3c Home Page">Home Page</a></dt>
   <dd>The Home Page consists of a hero image and and about us section:
      <ul>
-          <li><strong>Hero Image</strong> - Occupying 100% of the page width, while viewing on a desktop. On mobile devices the image changes to fit the screen better, still occupying 100% of the page width. The imagery used was specifically chosen as it created a impactful first impression, setting the tone of the website for the user.
+          <li><strong>Hero Image</strong> - Occupying 80% of the page width, while viewing on a desktop. On mobile devices the image changes to fit the screen better, while occupying 100% of the page width. The imagery used was specifically chosen as it created a impactful first impression, setting the tone of the website for the user.
           </li>
           <li><strong>About Us text and imagegy</strong> - The text occupies 60% of the page width while textwrapping around the image. The what is 3c hair section has an image occupying 40% of the page width while the text stays at 60%. This was to make the viewing of this information clear and easy to understand. On smaller screens, the width of the text and imagery increases to take up 90% of the page width and all image size decreases retrospectively.  
           </li>
@@ -192,7 +191,7 @@ Each page of the website features a consistent responsive navigational system:
   <dt><a href="protective.html" target="_blank" alt="Protective Styles Page">Protective Styles Page</a></dt>
   <dd>The Protective Styles page was made with clear informative text and imagery in mind:
      <ul>
-          <li><strong>Imagegry</strong> - Occupying around 60% of the page width while viewing on desktop, each image was cafely selected to properly portray the style that is being talked about. This images reduce in size retrospectively when the screen size is reduced.
+          <li><strong>Imagegry</strong> - Occupying around 60% of the page width while viewing on desktop, each image was cafely selected to properly portray the style that is being talked about. These images reduce in size retrospectively when the screen size is reduced.
           </li>
           <li><strong>Text</strong> - Occupying 60% of the page width while viewing on desktop, this was to keep everything nicely aligned and to the make the information clear and appealing. The width of the text increases to 90% on small screens and reduces in size. 
           </li>
@@ -226,8 +225,8 @@ Each page of the website features a consistent responsive navigational system:
 - **Header Logo** - Appearing on every page for brand recognition. Clicking the logo will return the users to the home page, as expected.
 - **Header Navigation Bar** - Appearing on every page for a consistently easy and intuitive navigable system.
 - **Social Icons** - Appearing on every page in the footer, the icons are appropriate representations of the Social Media platforms, linking to preferred social media platform. 
-- **Videography** - Appearing on the Regiment page for a clearer understanding of the information being portrayed. 
-- **Contact Form** - A contact form is used on the Contact us page, in order to provide a point of contact for the user. The form is not validated and on pressing submit the form will reset.
+- **Videography** - Appearing on the Regimen page for a clearer understanding of the information being portrayed. 
+- **Contact Form** - A contact form is used on the Contact us page, in order to provide a point of contact for the user. The form is not valid and on pressing submit the form will reset.
 
 - **[Home Page](index.html "Home Page")** - Provide an eyecatching home imgae, with relevant information on who the website host is and what the website is about. Also provide a hair chart in order to identify 3c hair. 
 - **[Protective Styles Page](protective.html "Protective Styles Page")** - Providing information on the different styles and protection availible for this type of hair. 
@@ -289,7 +288,7 @@ This project was developed using [Visual Studio Code Insiders](https://code.visu
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:
 
 1. Log into [GitHub](https://github.com/login "Link to GitHub login page") or [create an account](https://github.com/join "Link to GitHub create account page").
-2. Locate the [GitHub Repository](https://github.com/rebeccatraceyt/KryanLive "Link to GitHub Repo").
+2. Locate the [GitHub Repository](https://github.com/emmacharleswilson/Discover3c "Link to GitHub Repo").
 3. At the top of the repository, select Settings from the menu items.
 4. Scroll down the Settings page to the "GitHub Pages" section.
 5. Under "Source" click the drop-down menu labelled "None" and select "Master Branch".
@@ -333,7 +332,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 [Back to top ⇧](#Discover3c)
 
 ## Credits 
-- I would like to thank Harry Dhillon and Daisy Gunn for the help on some of the issues and bugs. Also Harry for just general help and guidence especially on the CSS file. 
+- I would like to thank Harry Dhillon and Daisy Gunn for the help on some of the issues and bugs.
 - I would like to thank my friends and family for providing insite into how and if the website would work for them and if the content is clear.  
 
 ### Content
@@ -343,7 +342,7 @@ Further reading and troubleshooting on cloning a repository from GitHub [here](h
 
 ### Media
 - Wash-day routine video was sourced from (https://www.youtube.com/watch?v=A4YMdv9Tqwo&t=3s)
-- All images appart from the about-us section image have been source from (https://www.google.com)
+- All images apart from the about-us section image have been source from (https://www.google.com)
 
 ### Code 
 The developer consulted multiple sites in order to better understand the code they were trying to implement. For code that was copied and edited, the developer made sure to reference this with the code. The following sites were used on a more regular basis:
@@ -356,7 +355,6 @@ The developer consulted multiple sites in order to better understand the code th
 
 - I would like to thank my friends and family for their valued opinions and critic during the process of design and development.
 - I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
-- Lastly, I would like to extend my deepest gratitude to Ryan for trusting me in designing this site for him.
 
 [Back to top ⇧](#Discover3c)
 
