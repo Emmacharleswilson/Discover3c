@@ -1,6 +1,6 @@
 # Discover3c
 
-![Discover3c Mockup Images](assets/readme-files/responsive.png)
+![Discover3c Mockup Images](assets/readme-files/mockup-images.png)
 
 [View the live project here](https://emmacharleswilson.github.io/Discover3c/)
 

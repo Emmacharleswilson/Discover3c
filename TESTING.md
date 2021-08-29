@@ -86,3 +86,46 @@ Manual testing was conducted on the following elements of the [Home Page](index.
 - On mobile device, images and text should decrease in size and padding should decrease allowing more space for content 
 
      ![Home Page responsiveness](assets/readme-files/home-responsiveness.png)
+
+### Protective Styles Page 
+Manual testing was conducted on the following elements of the [Protective Styles Page](protective.html):
+
+- Clicking the logo on the top left of the page will return the user to the Home Page 
+- On mobile device, images and text should decrease in size and padding should decrease allowing more space for content 
+
+     ![Protective Styles Page responsiveness](assets/readme-files/ps-responsiveness.png)
+
+### Regimen Page 
+Manual testing was conducted on the following elements of the [Regimen Page](regimen.html):
+
+- Clicking on the logo on the top left of the page will return the user to the Home Page 
+- Clicking on the video will play the video, and the user will get the option to play the video from YouTube directly 
+- On mobile device, product suggestion images should collapse into a block of four, two images on either row for UX purposes
+
+     ![Proudct Suggestion Images responsiveness](assets/readme-files/product-responsiveness.png)
+
+- On mobile device, images and text should decrease in size and padding should decrease allowing more space for content
+
+     ![Regimen Page responsiveness](assets/readme-files/regimen-responsiveness.png)
+
+### Contact Us Page 
+Manual testing was conducted on the following elements of the [Contact Us Page](contact.html):
+
+- Clicking on the logo on the top left of the page will return the user to the Home Page 
+- Form will prompt the user to fill out each input field or the form won't submit 
+
+     ![Contact Us Form input field](assets/readme-files/contact-field.png)
+
+- Minimum of 5 charcaters will have to be entered or the form won't submit 
+
+     ![Contact Us Form input field minimun character length](assets/readme-files/min-character.png)
+
+- On submitted the form the page will refresh 
+- On mobile device, the form will increase in width to fill up the page 
+
+     ![Contact Us Form responsiveness](assets/readme-files/contact-responsiveness.png)
+
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used to validate the `CSS` coded used.
+
+**Results:**
+![Style sheet validation results](assets/readme-files/jigsaw-validator.png)
