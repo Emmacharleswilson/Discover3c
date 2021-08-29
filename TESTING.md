@@ -125,7 +125,12 @@ Manual testing was conducted on the following elements of the [Contact Us Page](
 
      ![Contact Us Form responsiveness](assets/readme-files/contact-responsiveness.png)
 
-The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used to validate the `CSS` coded used.
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used to validate the `CSS` code used.
 
 **Results:**
 ![Style sheet validation results](assets/readme-files/jigsaw-validator.png)
+
+The [W3C Validator](https://validator.w3.org/) service was used to validate the `HTML` code used. 
+
+**Results:** 
+![Style sheet validation results](assets/readme-files/W3C-validator.png)
